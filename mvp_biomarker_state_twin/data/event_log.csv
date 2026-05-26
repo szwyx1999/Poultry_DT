@@ -1,0 +1,2 @@
+event_id,event_type,system_id,room_id,session_id,source_video_path,source_media_id,source_video_start_time,entry_offset_sec,exit_offset_sec,event_start_time,event_end_time,label_quality,notes
+caretaker_entry_room1_week11_2025_08_17,caretaker_entry,free_range,room_1,caretaker_entry_week_11_17_aug,data/raw/Caretaker Entry Video/Room 1/Week 11/17 Aug/GX330044.MP4,video_000002,2025-08-17T08:45:57-03:00,183,300,2025-08-17T08:49:00-03:00,2025-08-17T08:50:57-03:00,manual_offset_from_reference_video,Caretaker enters GX330044.MP4 at 00:03:03 and leaves at 00:05:00.

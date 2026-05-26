@@ -1,0 +1,22 @@
+raw_root: data/raw
+timezone: America/Halifax
+
+timestamp_priority:
+  - CreationDate
+  - CreateDate
+  - MediaCreateDate
+  - TrackCreateDate
+  - DateTimeOriginal
+  - FileModifyDate
+
+window_seconds: 30
+stride_seconds: 10
+
+path_layouts:
+  - [system_id, room_id, session_id, modality]
+  - [room_id, session_id, modality]
+  - [modality, room_id, session_id]
+
+mapping_csv: data/metadata/path_mapping.csv
+default_zone_config_id: default_zone
+mapping_precedence: csv_overrides_path

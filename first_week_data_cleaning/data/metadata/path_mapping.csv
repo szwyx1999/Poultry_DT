@@ -1,0 +1,3 @@
+pattern,system_id,room_id,session_id,modality,zone_config_id,source_type
+Caretaker Entry Video/Room 1/Week 11/17 Aug,free_range,room_1,caretaker_entry_week_11_17_aug,video,default_zone,caretaker_entry_reference
+"video/Room 1/Room 1 \(16, 17 Aug\)",free_range,room_1,room_1_16_17_aug,video,default_zone,room_observation_video

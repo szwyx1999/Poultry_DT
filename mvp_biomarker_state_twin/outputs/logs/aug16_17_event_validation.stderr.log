@@ -1,0 +1,22 @@
+INFO Loading MVP1 feature tables from C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_video_zone_heatmap\outputs\features\video_zone_features.csv
+INFO Computing room/window biomarker tables
+INFO Using event log from C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\data\event_log.csv
+INFO Rendering biomarker and resilience plots
+INFO Fitting latent behavioural state model
+INFO Exporting Unity timeline JSON
+INFO canonical_zone_feature_table: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\canonical_zone_feature_table.csv
+INFO schema_mapping: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\reports\schema_mapping.md
+INFO biomarker_window_table: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\biomarker_window_table.csv
+INFO labelled_biomarker_window_table: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\labelled_biomarker_window_table.csv
+INFO resilience_event_table: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\resilience_event_table.csv
+INFO hmm_model: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\model\hmm_model.joblib
+INFO hmm_state_sequence: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\hmm_state_sequence.csv
+INFO hmm_state_summary: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\hmm_state_summary.csv
+INFO event_validation_summary: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\features\event_validation_summary.csv
+INFO caretaker_event_timestamp_report: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\reports\caretaker_event_timestamp_report.md
+INFO data_coverage_report: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\reports\data_coverage_report.md
+INFO hmm_sequence_diagnostics: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\reports\hmm_sequence_diagnostics.md
+INFO risk_score_explanation: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\reports\risk_score_explanation.md
+INFO event_validation_report: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\reports\event_validation_report.md
+INFO unity_json: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\mvp_biomarker_state_twin\outputs\unity_json\poultry_twin_demo_timeline.json
+INFO unity_json_copies: C:\Users\tenpercent\Desktop\Yuxi Wang - Summer 2026\PoultryTwinDemo\demo1\Assets\StreamingAssets\poultry_twin_demo_timeline.json

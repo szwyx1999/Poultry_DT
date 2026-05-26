@@ -1,0 +1,41 @@
+project:
+  name: poultry_mvp1_video_zone_heatmap
+
+inputs:
+  preprocess_root: first_week_data_cleaning
+  video_window_index: first_week_data_cleaning/data/processed/metadata/video_window_index.csv
+  zone_config: mvp_video_zone_heatmap/data/metadata/zone_config.json
+
+outputs:
+  features_dir: mvp_video_zone_heatmap/outputs/features
+  unity_json_dir: mvp_video_zone_heatmap/outputs/unity_json
+  plots_dir: mvp_video_zone_heatmap/outputs/plots
+  sample_frames_dir: mvp_video_zone_heatmap/outputs/plots/sample_frames
+
+selection:
+  max_windows: 60
+  room_id: null
+  session_id: null
+  require_quality_ok: false
+
+video:
+  frame_sample_rate: 2
+  resize_width: 640
+  preview_frame_position: middle
+
+zones:
+  layout: 2x2
+
+optical_flow:
+  method: farneback
+  pyr_scale: 0.5
+  levels: 3
+  winsize: 15
+  iterations: 3
+  poly_n: 5
+  poly_sigma: 1.2
+  flags: 0
+  motion_threshold: 1.0
+
+export:
+  normalize_activity: true

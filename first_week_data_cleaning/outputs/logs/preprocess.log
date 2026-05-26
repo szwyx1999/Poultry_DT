@@ -1,0 +1,48 @@
+2026-05-22 19:47:08,766 | INFO | Loading configuration from data/metadata/preprocessing_config.yaml
+2026-05-22 19:47:08,767 | INFO | Scanning MP4 files under data/raw
+2026-05-22 19:47:08,773 | INFO | Found 41 MP4 file(s).
+2026-05-22 19:47:08,782 | INFO | [1/41] Reading metadata for GX320044.MP4
+2026-05-22 19:47:09,763 | INFO | [2/41] Reading metadata for GX330044.MP4
+2026-05-22 19:47:10,035 | INFO | [3/41] Reading metadata for GX010044.MP4
+2026-05-22 19:47:10,307 | INFO | [4/41] Reading metadata for GX020044.MP4
+2026-05-22 19:47:10,577 | INFO | [5/41] Reading metadata for GX030044.MP4
+2026-05-22 19:47:10,856 | INFO | [6/41] Reading metadata for GX040044.MP4
+2026-05-22 19:47:11,133 | INFO | [7/41] Reading metadata for GX050044.MP4
+2026-05-22 19:47:11,405 | INFO | [8/41] Reading metadata for GX060044.MP4
+2026-05-22 19:47:11,678 | INFO | [9/41] Reading metadata for GX070044.MP4
+2026-05-22 19:47:11,950 | INFO | [10/41] Reading metadata for GX080044.MP4
+2026-05-22 19:47:12,224 | INFO | [11/41] Reading metadata for GX090044.MP4
+2026-05-22 19:47:12,492 | INFO | [12/41] Reading metadata for GX100044.MP4
+2026-05-22 19:47:12,762 | INFO | [13/41] Reading metadata for GX110044.MP4
+2026-05-22 19:47:13,032 | INFO | [14/41] Reading metadata for GX120044.MP4
+2026-05-22 19:47:13,305 | INFO | [15/41] Reading metadata for GX130044.MP4
+2026-05-22 19:47:13,577 | INFO | [16/41] Reading metadata for GX140044.MP4
+2026-05-22 19:47:13,849 | INFO | [17/41] Reading metadata for GX150044.MP4
+2026-05-22 19:47:14,124 | INFO | [18/41] Reading metadata for GX160044.MP4
+2026-05-22 19:47:14,394 | INFO | [19/41] Reading metadata for GX170044.MP4
+2026-05-22 19:47:14,670 | INFO | [20/41] Reading metadata for GX180044.MP4
+2026-05-22 19:47:14,945 | INFO | [21/41] Reading metadata for GX190044.MP4
+2026-05-22 19:47:15,250 | INFO | [22/41] Reading metadata for GX200044.MP4
+2026-05-22 19:47:15,559 | INFO | [23/41] Reading metadata for GX210044.MP4
+2026-05-22 19:47:15,835 | INFO | [24/41] Reading metadata for GX220044.MP4
+2026-05-22 19:47:16,114 | INFO | [25/41] Reading metadata for GX230044.MP4
+2026-05-22 19:47:16,395 | INFO | [26/41] Reading metadata for GX240044.MP4
+2026-05-22 19:47:16,674 | INFO | [27/41] Reading metadata for GX250044.MP4
+2026-05-22 19:47:16,947 | INFO | [28/41] Reading metadata for GX260044.MP4
+2026-05-22 19:47:17,222 | INFO | [29/41] Reading metadata for GX270044.MP4
+2026-05-22 19:47:17,494 | INFO | [30/41] Reading metadata for GX280044.MP4
+2026-05-22 19:47:17,773 | INFO | [31/41] Reading metadata for GX290044.MP4
+2026-05-22 19:47:18,045 | INFO | [32/41] Reading metadata for GX300044.MP4
+2026-05-22 19:47:18,316 | INFO | [33/41] Reading metadata for GX310044.MP4
+2026-05-22 19:47:18,590 | INFO | [34/41] Reading metadata for GX320044.MP4
+2026-05-22 19:47:18,862 | INFO | [35/41] Reading metadata for GX330044.MP4
+2026-05-22 19:47:19,163 | INFO | [36/41] Reading metadata for GX340044.MP4
+2026-05-22 19:47:19,460 | INFO | [37/41] Reading metadata for GX350044.MP4
+2026-05-22 19:47:19,746 | INFO | [38/41] Reading metadata for GX360044.MP4
+2026-05-22 19:47:20,031 | INFO | [39/41] Reading metadata for GX370044.MP4
+2026-05-22 19:47:20,309 | INFO | [40/41] Reading metadata for GX380044.MP4
+2026-05-22 19:47:20,592 | INFO | [41/41] Reading metadata for GX390044.MP4
+2026-05-22 19:47:20,867 | INFO | Writing media manifest...
+2026-05-22 19:47:20,868 | INFO | Building video window index...
+2026-05-22 19:47:20,943 | INFO | Writing preprocessing report...
+2026-05-22 19:47:20,944 | INFO | Preprocessing complete.

@@ -1,0 +1,2 @@
+event_id,room_id,event_type,candidate_event_source,event_start_time,event_end_time,peak_window_id,peak_time,baseline_activity,peak_activity,recovery_time_windows,recovery_time_seconds,recovery_slope,area_under_recovery_curve,recovered_flag,baseline_window_count,recovery_end_time
+caretaker_entry_room1_week11_2025_08_17,room_1,caretaker_entry,event_log,,,video_000003_w0001,2025-08-16T06:00:03-03:00,1.6205712001594413e-05,1.6205712001594413e-05,1,10.0,-2.2415853032642408e-07,0.0,True,0,2025-08-16T06:00:43-03:00

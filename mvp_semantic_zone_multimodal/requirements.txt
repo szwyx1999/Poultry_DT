@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scipy
+openpyxl
+hmmlearn
+joblib
+opencv-python
+pillow

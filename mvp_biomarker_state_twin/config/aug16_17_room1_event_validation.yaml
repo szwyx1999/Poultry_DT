@@ -1,0 +1,62 @@
+paths:
+  zone_features_csv: mvp_video_zone_heatmap/outputs/features/video_zone_features.csv
+  selected_windows_csv: mvp_video_zone_heatmap/outputs/features/selected_windows.csv
+  mvp1_unity_json: mvp_video_zone_heatmap/outputs/unity_json/mvp1_zone_activity_timeline.json
+  mvp1_config_yaml: mvp_video_zone_heatmap/configs/aug16_17_all_room1.yaml
+  video_window_index_csv: first_week_data_cleaning/data/processed/metadata/video_window_index.csv
+  media_manifest_csv: first_week_data_cleaning/data/processed/metadata/media_manifest.csv
+  zone_config_json: mvp_video_zone_heatmap/data/metadata/zone_config.json
+  generated_event_log_csv: mvp_biomarker_state_twin/data/event_log.csv
+  target_raw_subdir: video/Room 1/Room 1 (16, 17 Aug)
+  package_output_dir: mvp_biomarker_state_twin/outputs
+  unity_copy_paths:
+    - PoultryTwinDemo/demo1/Assets/StreamingAssets/poultry_twin_demo_timeline.json
+  event_log_candidates:
+    - mvp_biomarker_state_twin/data/event_log.csv
+
+biomarker_window_selection:
+  max_windows: null
+  max_windows_per_room: null
+  max_windows_per_session: null
+  min_windows_for_hmm: 30
+  auto_refresh_mvp1_if_needed: false
+  mvp1_refresh_window_target: 60
+
+biomarkers:
+  mobility_activity_weight: 0.7
+  mobility_transition_weight: 0.3
+  disturbance_peak_zscore: 1.0
+  fallback_max_events_per_room: 3
+  resilience_baseline_windows: 2
+  resilience_max_recovery_windows: 6
+  resilience_recovery_threshold_fraction: 0.2
+
+events:
+  caretaker_reference_video_path: first_week_data_cleaning/data/raw/Caretaker Entry Video/Room 1/Week 11/17 Aug/GX330044.MP4
+  caretaker_reference_session_id: caretaker_entry_week_11_17_aug
+  caretaker_event_id: caretaker_entry_room1_week11_2025_08_17
+  caretaker_event_type: caretaker_entry
+  caretaker_entry_offset_sec: 183
+  caretaker_exit_offset_sec: 300
+  baseline_minutes_before_event: 10
+  recovery_minutes_after_event: 20
+  event_overlap_min_seconds: 1
+
+model:
+  hmm_n_states: auto
+  max_hmm_states: 4
+  covariance_type: diag
+  random_state: 42
+  add_missingness_indicators: true
+  min_room_windows_for_individual_model: 8
+  sustained_risk_windows: 3
+
+risk:
+  activity_mobility_weight: 0.30
+  imbalance_weight: 0.25
+  low_spatial_freedom_weight: 0.20
+  resilience_pressure_weight: 0.15
+  persistence_weight: 0.10
+
+plots:
+  max_resilience_events: 4

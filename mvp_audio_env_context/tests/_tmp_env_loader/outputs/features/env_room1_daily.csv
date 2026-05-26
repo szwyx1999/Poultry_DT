@@ -1,0 +1,2 @@
+date,temp_am_min,temp_am_max,temp_pm,rh_am,rh_pm,temp_am_mean,temp_daily_mean,rh_daily_mean,temp_daily_range,env_quality_flag
+2025-08-16,24,28,27,40,50,26.0,26.5,45.0,4.0,ok

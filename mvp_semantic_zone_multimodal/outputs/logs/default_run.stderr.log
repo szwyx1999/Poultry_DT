@@ -1,0 +1,10 @@
+INFO Building semantic zone definition
+INFO Computing semantic-zone video activity features
+INFO Computing semantic biomarker table
+INFO Extracting embedded MP4 audio features
+INFO Loading Room 1 daily environment context
+INFO Ensuring caretaker-entry event log
+INFO Merging semantic biomarkers, audio, environment, and event context
+INFO Applying semantic event labels
+INFO Fitting semantic-zone HMM models
+INFO Running semantic event validation

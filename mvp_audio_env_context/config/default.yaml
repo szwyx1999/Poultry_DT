@@ -1,0 +1,31 @@
+paths:
+  video_window_index_csv: first_week_data_cleaning/data/processed/metadata/video_window_index.csv
+  media_manifest_csv: first_week_data_cleaning/data/processed/metadata/media_manifest.csv
+  selected_windows_csv: mvp_video_zone_heatmap/outputs/features/selected_windows.csv
+  video_zone_features_csv: mvp_video_zone_heatmap/outputs/features/video_zone_features.csv
+  biomarker_window_table_csv: mvp_biomarker_state_twin/outputs/features/biomarker_window_table.csv
+  hmm_state_sequence_csv: mvp_biomarker_state_twin/outputs/features/hmm_state_sequence.csv
+  event_log_csv: mvp_biomarker_state_twin/data/event_log.csv
+  env_xlsx: first_week_data_cleaning/data/raw/env/Combined Room 1.xlsx
+  output_dir: mvp_audio_env_context/outputs
+
+audio:
+  ffmpeg_path: ffmpeg
+  sample_rate: 22050
+  frame_seconds: 1.0
+  cache_enabled: true
+  force_recompute: false
+  max_report_failures: 25
+
+events:
+  baseline_minutes_before_event: 10
+  recovery_minutes_after_event: 20
+  event_overlap_min_seconds: 1
+  env_am_hour_cutoff: 12
+
+analysis:
+  enable_hmm_ablation: true
+  hmm_n_states: auto
+  max_hmm_states: 4
+  covariance_type: diag
+  random_state: 42

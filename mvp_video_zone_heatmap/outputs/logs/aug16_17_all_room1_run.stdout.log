@@ -1,0 +1,57 @@
+Selecting video windows...
+Loaded windows: 12128
+Selected windows: 11530
+Room filter: room_1
+Session filter: none
+Target raw subdir filter: video/Room 1/Room 1 (16, 17 Aug)
+Require quality ok: True
+Selection strategy: all
+Missing resolved video paths: 0
+Selected windows saved to: mvp_video_zone_heatmap/outputs/features/selected_windows.csv
+Extracting zone-level activity features in streaming mode for 39 media file(s)...
+[1/39] Processing video_000003 (299 window(s))
+[2/39] Processing video_000004 (299 window(s))
+[3/39] Processing video_000005 (299 window(s))
+[4/39] Processing video_000006 (299 window(s))
+[5/39] Processing video_000007 (299 window(s))
+[6/39] Processing video_000008 (299 window(s))
+[7/39] Processing video_000009 (299 window(s))
+[8/39] Processing video_000010 (299 window(s))
+[9/39] Processing video_000011 (299 window(s))
+[10/39] Processing video_000012 (299 window(s))
+[11/39] Processing video_000013 (299 window(s))
+[12/39] Processing video_000014 (299 window(s))
+[13/39] Processing video_000015 (299 window(s))
+[14/39] Processing video_000016 (299 window(s))
+[15/39] Processing video_000017 (299 window(s))
+[16/39] Processing video_000018 (299 window(s))
+[17/39] Processing video_000019 (299 window(s))
+[18/39] Processing video_000020 (299 window(s))
+[19/39] Processing video_000021 (299 window(s))
+[20/39] Processing video_000022 (299 window(s))
+[21/39] Processing video_000023 (299 window(s))
+[22/39] Processing video_000024 (299 window(s))
+[23/39] Processing video_000025 (299 window(s))
+[24/39] Processing video_000026 (299 window(s))
+[25/39] Processing video_000027 (299 window(s))
+[26/39] Processing video_000028 (299 window(s))
+[27/39] Processing video_000029 (299 window(s))
+[28/39] Processing video_000030 (299 window(s))
+[29/39] Processing video_000031 (299 window(s))
+[30/39] Processing video_000032 (299 window(s))
+[31/39] Processing video_000033 (299 window(s))
+[32/39] Processing video_000034 (299 window(s))
+[33/39] Processing video_000035 (299 window(s))
+[34/39] Processing video_000036 (299 window(s))
+[35/39] Processing video_000037 (299 window(s))
+[36/39] Processing video_000038 (299 window(s))
+[37/39] Processing video_000039 (299 window(s))
+[38/39] Processing video_000040 (299 window(s))
+[39/39] Processing video_000041 (168 window(s))
+Exporting Unity-readable JSON...
+Generating sanity-check plots...
+MVP 1 pipeline complete.
+Features CSV: C:/Users/tenpercent/Desktop/Yuxi Wang - Summer 2026/mvp_video_zone_heatmap/outputs/features/video_zone_features.csv
+Unity JSON: C:/Users/tenpercent/Desktop/Yuxi Wang - Summer 2026/mvp_video_zone_heatmap/outputs/unity_json/mvp1_zone_activity_timeline.json
+Plots: C:/Users/tenpercent/Desktop/Yuxi Wang - Summer 2026/mvp_video_zone_heatmap/outputs/plots/zone_activity_over_time.png, C:/Users/tenpercent/Desktop/Yuxi Wang - Summer 2026/mvp_video_zone_heatmap/outputs/plots/zone_activity_heatmap.png
+Coverage report: C:/Users/tenpercent/Desktop/Yuxi Wang - Summer 2026/mvp_video_zone_heatmap/outputs/reports/aug16_17_processing_coverage.md
