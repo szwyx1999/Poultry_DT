@@ -1,0 +1,1 @@
+media_id,room_id,room_display_name,session_id,file_name,relative_path,absolute_path,video_path,file_size_bytes,timestamp_source,start_time,end_time,duration_seconds,width,height,frame_rate,video_codec,has_audio,audio_codec,audio_sample_rate,audio_channels,quality_status,warnings

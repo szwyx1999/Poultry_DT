@@ -1,0 +1,1 @@
+window_id,media_id,room_id,session_id,start_time,end_time,video_path,video_start_offset_sec,duration_seconds,zone_config_id,zone_id,semantic_type,zone_area_pixels,zone_area_fraction,activity_mean,activity_std,activity_sum,activity_norm,frame_count_used,quality_status,warnings

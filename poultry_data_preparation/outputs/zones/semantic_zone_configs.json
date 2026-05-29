@@ -1,0 +1,65 @@
+[
+  {
+    "room_id": "room_1",
+    "zone_config_id": "room_1_semantic_v1",
+    "reference_image": "F:\\temp\\data\\metadata\\semantic_zone_refs\\room1_aug16_17_reference.png",
+    "annotated_image": "F:\\temp\\data\\metadata\\semantic_zone_refs\\room1_aug16_17_reference_with_notes.png",
+    "image_width": 1920,
+    "image_height": 1080,
+    "detection_mode": "automatic",
+    "zones": [
+      {
+        "zone_id": "drinking_zone",
+        "display_name": "Drinking Area",
+        "semantic_type": "drinking",
+        "polygon": [
+          [
+            389,
+            149
+          ],
+          [
+            585,
+            149
+          ],
+          [
+            585,
+            512
+          ],
+          [
+            389,
+            512
+          ]
+        ]
+      },
+      {
+        "zone_id": "feeding_zone",
+        "display_name": "Feeding Area",
+        "semantic_type": "feeding",
+        "polygon": [
+          [
+            586,
+            314
+          ],
+          [
+            863,
+            314
+          ],
+          [
+            863,
+            648
+          ],
+          [
+            586,
+            648
+          ]
+        ]
+      },
+      {
+        "zone_id": "general_zone",
+        "display_name": "General Area",
+        "semantic_type": "general",
+        "definition": "full_frame_minus_drinking_and_feeding"
+      }
+    ]
+  }
+]
