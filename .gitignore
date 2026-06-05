@@ -3,3 +3,5 @@ __pycache__/
 
 # folders starting with .tmp
 .tmp*/
+*.MP4
+*.sif

@@ -1,13 +1,18 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 import uuid
 
 import pandas as pd
 import yaml
 
-from poultry_data_preparation.src.config import ensure_output_dirs, load_config
-from poultry_data_preparation.src.merge_outputs import REQUIRED_PROCESSED_COLUMNS, merge_processed_outputs
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.config import ensure_output_dirs, load_config
+from src.merge_outputs import REQUIRED_PROCESSED_COLUMNS, merge_processed_outputs
 
 
 def _build_test_config(base_path: Path):
@@ -66,7 +71,7 @@ def _build_test_config(base_path: Path):
 
 
 def test_merge_outputs_required_columns_and_no_duplicate_window_ids() -> None:
-    scratch_root = Path("poultry_data_preparation/.tmp_tests")
+    scratch_root = Path("tmp_tests")
     scratch_root.mkdir(parents=True, exist_ok=True)
     tmp_path = scratch_root / f"merge_test_{uuid.uuid4().hex}"
     tmp_path.mkdir(parents=True, exist_ok=True)

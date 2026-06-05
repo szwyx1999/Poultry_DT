@@ -25,6 +25,9 @@ except ImportError:  # pragma: no cover
 
 LOGGER = logging.getLogger(__name__)
 
+VIDEO_CACHE_SCHEMA_VERSION = 1
+FRAME_DIFF_SAMPLE_PERIOD_SEC = 2.0
+
 
 ZONE_FEATURE_COLUMNS = [
     "window_id",
@@ -235,13 +238,62 @@ def _load_or_compute_media_cache(
 ) -> dict[str, object]:
     media_id = str(media_windows.iloc[0]["media_id"])
     cache_path = config.video_feature_cache_dir / f"{media_id}.joblib"
+    expected_metadata = _build_video_cache_metadata(config, zone_config, absolute_path)
     if cache_path.exists() and not force_recompute:
-        LOGGER.info("Reusing cached video features for %s", media_id)
-        return joblib.load(cache_path)
+        cached = joblib.load(cache_path)
+        if _cache_metadata_matches(cached, expected_metadata):
+            LOGGER.info("Reusing cached video features for %s", media_id)
+            return cached
+        LOGGER.info("Discarding stale video feature cache for %s", media_id)
     LOGGER.info("Computing video features for %s", media_id)
     cache_data = _compute_media_interval_metrics(config, zone_config, absolute_path, media_windows)
+    cache_data["cache_metadata"] = expected_metadata
     joblib.dump(cache_data, cache_path)
     return cache_data
+
+
+def _build_video_cache_metadata(config: PreparationConfig, zone_config: dict, absolute_path: Path) -> dict[str, object]:
+    resolved_path = absolute_path.resolve()
+    file_stat = resolved_path.stat()
+    return {
+        "schema_version": VIDEO_CACHE_SCHEMA_VERSION,
+        "video_method": str(config.video_method),
+        "resize_width": int(config.resize_width),
+        "sample_period_sec": float(FRAME_DIFF_SAMPLE_PERIOD_SEC),
+        "source_video_path": str(resolved_path),
+        "source_video_size": int(file_stat.st_size),
+        "source_video_mtime_ns": int(file_stat.st_mtime_ns),
+        "zone_signature": _zone_signature(zone_config),
+    }
+
+
+def _zone_signature(zone_config: dict) -> str:
+    serialized = {
+        "room_id": str(zone_config.get("room_id", "")),
+        "zone_config_id": str(zone_config.get("zone_config_id", "")),
+        "image_width": int(zone_config.get("image_width", 0) or 0),
+        "image_height": int(zone_config.get("image_height", 0) or 0),
+        "zones": sorted(
+            [
+                {
+                    "zone_id": str(zone.get("zone_id", "")),
+                    "semantic_type": str(zone.get("semantic_type", "")),
+                    "polygon": zone.get("polygon"),
+                    "definition": zone.get("definition"),
+                }
+                for zone in zone_config.get("zones", [])
+            ],
+            key=lambda item: item["zone_id"],
+        ),
+    }
+    return json.dumps(serialized, sort_keys=True, separators=(",", ":"))
+
+
+def _cache_metadata_matches(cache_data: dict[str, object], expected_metadata: dict[str, object]) -> bool:
+    cached_metadata = cache_data.get("cache_metadata")
+    if not isinstance(cached_metadata, dict):
+        return False
+    return all(cached_metadata.get(key) == value for key, value in expected_metadata.items())
 
 
 def _compute_media_interval_metrics(
@@ -256,7 +308,7 @@ def _compute_media_interval_metrics(
             capture.release()
         return {"interval_center_sec": np.array([], dtype=float), "zone_metrics": {}, "warnings": ["opencv_open_failed"]}
 
-    sample_period = 2.0
+    sample_period = FRAME_DIFF_SAMPLE_PERIOD_SEC
     max_offset = float(
         (
             pd.to_numeric(media_windows["video_start_offset_sec"], errors="coerce").fillna(0.0)
@@ -420,9 +472,13 @@ def _plot_room_level_outputs(zone_feature_df: pd.DataFrame, biomarker_df: pd.Dat
 
     for room_id, room_zone_df in zone_plot_df.groupby("room_id", sort=False):
         figure, axis = plt.subplots(figsize=(12, 5))
+        labeled_zones: set[str] = set()
         for zone_id, group_df in room_zone_df.groupby("zone_id", sort=False):
-            ordered = group_df.sort_values("start_time_dt", kind="stable")
-            axis.plot(ordered["start_time_dt"], ordered["activity_mean"], label=zone_id, linewidth=1.2)
+            for _, session_df in group_df.groupby("session_id", sort=False):
+                ordered = session_df.sort_values("start_time_dt", kind="stable")
+                label = zone_id if zone_id not in labeled_zones else None
+                axis.plot(ordered["start_time_dt"], ordered["activity_mean"], label=label, linewidth=1.2)
+            labeled_zones.add(zone_id)
         axis.set_title(f"Semantic Zone Activity Timeseries: {room_id}")
         axis.set_ylabel("Activity Mean")
         axis.set_xlabel("Window Start Time")
@@ -443,7 +499,9 @@ def _plot_room_level_outputs(zone_feature_df: pd.DataFrame, biomarker_df: pd.Dat
             ("feeding_plus_drinking_activity_fraction", "Functional Area Activity Fraction", "#c94f3d"),
         ]
         for axis, (column, title, color) in zip(axes, metrics):
-            axis.plot(ordered["start_time_dt"], ordered[column], color=color, linewidth=1.3)
+            for _, session_df in ordered.groupby("session_id", sort=False):
+                session_ordered = session_df.sort_values("start_time_dt", kind="stable")
+                axis.plot(session_ordered["start_time_dt"], session_ordered[column], color=color, linewidth=1.3)
             axis.set_ylabel(title)
             axis.grid(alpha=0.25)
         axes[0].set_title(f"Semantic Biomarker Timeseries: {room_id}")
@@ -497,6 +555,19 @@ def _build_dry_run_report(window_df: pd.DataFrame, zone_configs: list[dict], ena
 
 
 def _build_video_feature_report(zone_feature_df: pd.DataFrame, biomarker_df: pd.DataFrame, failed_df: pd.DataFrame) -> str:
+    coverage_summary = "No biomarker rows available."
+    if not biomarker_df.empty:
+        coverage_df = prepare_time_columns(biomarker_df)
+        coverage_summary = (
+            coverage_df.groupby(["room_id", "session_id"], as_index=False)
+            .agg(
+                start_time=("start_time_dt", "min"),
+                end_time=("end_time_dt", "max"),
+                window_count=("window_id", "count"),
+            )
+            .sort_values(["room_id", "start_time"], kind="stable")
+            .to_string(index=False)
+        )
     lines = [
         "# Video Feature Report",
         "",
@@ -523,6 +594,12 @@ def _build_video_feature_report(zone_feature_df: pd.DataFrame, biomarker_df: pd.
                 "feeding_plus_drinking_activity_fraction",
             ]
         ].describe().to_string() if not biomarker_df.empty else "No biomarker rows available.",
+        "```",
+        "",
+        "## Session Coverage",
+        "",
+        "```text",
+        coverage_summary,
         "```",
     ]
     return "\n".join(lines) + "\n"

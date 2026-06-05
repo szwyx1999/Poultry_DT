@@ -4,7 +4,19 @@
 
 This package converts raw MP4 video, embedded MP4 audio, semantic zone reference images, and Room-level environment spreadsheets into standardized processed CSV or parquet tables for downstream analytics.
 
+It is designed for a portable workflow:
+
+- a small subset can be tested inside the Codex workspace
+- the same scripts can later be run manually on a larger external hard drive
+- no Unity or downstream MVP output is required for this preparation stage
+
+## Why This Exists
+
+The full poultry dataset is too large to keep in the Codex workspace. This package separates reusable data preparation from later modelling experiments so that raw data can be processed once on another disk and then handed off as clean tabular files.
+
 ## Required Input Folder Structure
+
+See also `poultry_data_preparation/INPUT_FOLDER_STRUCTURE.md` for a simpler raw-to-prepared explanation plus the exact sample subset that exists in this workspace.
 
 ```text
 data/
@@ -26,6 +38,24 @@ data/
       room2_..._reference_with_notes.png
 ```
 
+The current Codex test workspace stores the subset under `first_week_data_cleaning/data/...`. For that sample subset, use `poultry_data_preparation/config/workspace_sample.yaml`. The checked-in `default.yaml` remains a generic `data/raw` style example for a standalone dataset layout. On an external drive you can usually change only:
+
+- `raw_root`
+- `metadata_root`
+- `output_root`
+- `cache_root`
+
+If your external project instead uses the cleaner standalone layout shown above, a typical config looks like:
+
+```yaml
+paths:
+  project_root: "../.."
+  raw_root: "data/raw"
+  metadata_root: "data/metadata"
+  output_root: "poultry_data_preparation/outputs"
+  cache_root: "poultry_data_preparation/outputs/cache"
+```
+
 ## How Room IDs Are Inferred
 
 Room IDs are parsed from folder names and filenames. Examples:
@@ -41,19 +71,19 @@ If a room cannot be parsed, the pipeline assigns `unknown_room`, emits a warning
 From the workspace root:
 
 ```bash
-python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/default.yaml --stage all --max-windows 100
+python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/workspace_sample.yaml --stage all --max-windows 100
 ```
 
 Small test with both media and window caps:
 
 ```bash
-python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/default.yaml --stage all --max-media 2 --max-windows 100
+python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/workspace_sample.yaml --stage all --max-media 2 --max-windows 100
 ```
 
 Dry run:
 
 ```bash
-python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/default.yaml --stage all --dry-run
+python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/workspace_sample.yaml --stage all --dry-run
 ```
 
 ## Run Full External-Drive Processing
@@ -110,3 +140,21 @@ Handoff package:
 
 - `outputs/handoff_for_mvp/README_HANDOFF.md`
 - copies of the main processed tables
+
+## Downstream Handoff
+
+This preparation stage is meant to feed later projects such as:
+
+- semantic-zone analytics experiments
+- biomarker and latent-state pipelines
+- future behaviour detection pipelines
+
+Videos are not copied into the handoff folder. Only processed metadata and feature tables are written.
+
+## Limitations
+
+- semantic-zone activity is activity-based and not true occupancy or bird counts
+- embedded audio is whole-room or camera audio, not isolated chicken vocalization
+- daily environment data are contextual covariates, not minute-level causal measurements
+- this stage does not perform welfare diagnosis
+- this stage prepares reusable data files; it does not fit behaviour or welfare models

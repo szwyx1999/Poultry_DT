@@ -26,6 +26,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--dry-run", action="store_true", help="Scan files and write reports, but skip heavy video and audio extraction.")
     parser.add_argument("--max-windows", type=int, default=None, help="Override max_windows for small test runs.")
     parser.add_argument("--max-media", type=int, default=None, help="Override max_media for small test runs.")
+    parser.add_argument("--force-recompute-video", action="store_true", help="Ignore cached video features and recompute them for this run.")
+    parser.add_argument("--force-recompute-audio", action="store_true", help="Ignore cached audio features and recompute them for this run.")
+    parser.add_argument("--force-recompute-all", action="store_true", help="Ignore both video and audio caches for this run.")
     return parser.parse_args()
 
 
@@ -38,6 +41,9 @@ def main() -> int:
             dry_run=args.dry_run,
             max_windows=args.max_windows,
             max_media=args.max_media,
+            force_recompute_video=args.force_recompute_video,
+            force_recompute_audio=args.force_recompute_audio,
+            force_recompute_all=args.force_recompute_all,
         )
     except Exception as exc:  # pragma: no cover - CLI guard
         logging.getLogger(__name__).error(str(exc))
@@ -51,8 +57,15 @@ def run_pipeline(
     dry_run: bool = False,
     max_windows: int | None = None,
     max_media: int | None = None,
+    force_recompute_video: bool = False,
+    force_recompute_audio: bool = False,
+    force_recompute_all: bool = False,
 ) -> dict[str, str]:
     config = load_config(config_path, max_windows=max_windows, max_media=max_media)
+    if force_recompute_all or force_recompute_video:
+        config.video_force_recompute = True
+    if force_recompute_all or force_recompute_audio:
+        config.audio_force_recompute = True
     ensure_output_dirs(config)
     configure_logging(config.log_path)
     LOGGER.info("Starting poultry_data_preparation stage=%s dry_run=%s", stage, dry_run)

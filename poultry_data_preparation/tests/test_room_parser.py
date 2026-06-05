@@ -1,4 +1,11 @@
-from poultry_data_preparation.src.room_parser import UNKNOWN_ROOM_ID, parse_room_identifier, parse_room_identifier_from_path
+from pathlib import Path
+import sys
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.room_parser import UNKNOWN_ROOM_ID, parse_room_identifier, parse_room_identifier_from_path
 
 
 def test_parse_room_from_folder_name() -> None:

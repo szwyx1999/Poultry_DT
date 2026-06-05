@@ -1,0 +1,1389 @@
+2026-06-01 22:01:27,368 INFO Starting poultry_data_preparation stage=all dry_run=False
+2026-06-01 22:01:27,433 INFO Indexing media 1/198: GX010042.MP4
+2026-06-01 22:01:28,306 INFO Indexing media 2/198: GX010043.MP4
+2026-06-01 22:01:28,543 INFO Indexing media 3/198: GX020043.MP4
+2026-06-01 22:01:28,779 INFO Indexing media 4/198: GX010044.MP4
+2026-06-01 22:01:29,019 INFO Indexing media 5/198: GX020044.MP4
+2026-06-01 22:01:29,264 INFO Indexing media 6/198: GX010044.MP4
+2026-06-01 22:01:29,494 INFO Indexing media 7/198: GX020044.MP4
+2026-06-01 22:01:29,725 INFO Indexing media 8/198: GX030044.MP4
+2026-06-01 22:01:29,954 INFO Indexing media 9/198: GX040044.MP4
+2026-06-01 22:01:30,189 INFO Indexing media 10/198: GX050044.MP4
+2026-06-01 22:01:30,425 INFO Indexing media 11/198: GX060044.MP4
+2026-06-01 22:01:30,663 INFO Indexing media 12/198: GX070044.MP4
+2026-06-01 22:01:30,891 INFO Indexing media 13/198: GX080044.MP4
+2026-06-01 22:01:31,126 INFO Indexing media 14/198: GX090044.MP4
+2026-06-01 22:01:31,362 INFO Indexing media 15/198: GX100044.MP4
+2026-06-01 22:01:31,601 INFO Indexing media 16/198: GX110044.MP4
+2026-06-01 22:01:31,838 INFO Indexing media 17/198: GX120044.MP4
+2026-06-01 22:01:32,086 INFO Indexing media 18/198: GX130044.MP4
+2026-06-01 22:01:32,328 INFO Indexing media 19/198: GX140044.MP4
+2026-06-01 22:01:32,570 INFO Indexing media 20/198: GX150044.MP4
+2026-06-01 22:01:32,816 INFO Indexing media 21/198: GX160044.MP4
+2026-06-01 22:01:33,060 INFO Indexing media 22/198: GX170044.MP4
+2026-06-01 22:01:33,312 INFO Indexing media 23/198: GX180044.MP4
+2026-06-01 22:01:33,566 INFO Indexing media 24/198: GX190044.MP4
+2026-06-01 22:01:33,817 INFO Indexing media 25/198: GX200044.MP4
+2026-06-01 22:01:34,063 INFO Indexing media 26/198: GX210044.MP4
+2026-06-01 22:01:34,315 INFO Indexing media 27/198: GX220044.MP4
+2026-06-01 22:01:34,571 INFO Indexing media 28/198: GX230044.MP4
+2026-06-01 22:01:34,853 INFO Indexing media 29/198: GX240044.MP4
+2026-06-01 22:01:35,123 INFO Indexing media 30/198: GX250044.MP4
+2026-06-01 22:01:35,357 INFO Indexing media 31/198: GX260044.MP4
+2026-06-01 22:01:35,589 INFO Indexing media 32/198: GX270044.MP4
+2026-06-01 22:01:35,825 INFO Indexing media 33/198: GX280044.MP4
+2026-06-01 22:01:36,067 INFO Indexing media 34/198: GX290044.MP4
+2026-06-01 22:01:36,309 INFO Indexing media 35/198: GX300044.MP4
+2026-06-01 22:01:36,547 INFO Indexing media 36/198: GX310044.MP4
+2026-06-01 22:01:36,781 INFO Indexing media 37/198: GX320044.MP4
+2026-06-01 22:01:37,035 INFO Indexing media 38/198: GX330044.MP4
+2026-06-01 22:01:37,281 INFO Indexing media 39/198: GX340044.MP4
+2026-06-01 22:01:37,523 INFO Indexing media 40/198: GX350044.MP4
+2026-06-01 22:01:37,764 INFO Indexing media 41/198: GX360044.MP4
+2026-06-01 22:01:38,001 INFO Indexing media 42/198: GX370044.MP4
+2026-06-01 22:01:38,235 INFO Indexing media 43/198: GX380044.MP4
+2026-06-01 22:01:38,479 INFO Indexing media 44/198: GX390044.MP4
+2026-06-01 22:01:38,723 INFO Indexing media 45/198: GX010045.MP4
+2026-06-01 22:01:38,975 INFO Indexing media 46/198: GX020045.MP4
+2026-06-01 22:01:39,212 INFO Indexing media 47/198: GX030045.MP4
+2026-06-01 22:01:39,470 INFO Indexing media 48/198: GX040045.MP4
+2026-06-01 22:01:39,724 INFO Indexing media 49/198: GX050045.MP4
+2026-06-01 22:01:39,987 INFO Indexing media 50/198: GX060045.MP4
+2026-06-01 22:01:40,242 INFO Indexing media 51/198: GX070045.MP4
+2026-06-01 22:01:40,503 INFO Indexing media 52/198: GX080045.MP4
+2026-06-01 22:01:40,756 INFO Indexing media 53/198: GX090045.MP4
+2026-06-01 22:01:41,007 INFO Indexing media 54/198: GX100045.MP4
+2026-06-01 22:01:41,258 INFO Indexing media 55/198: GX110045.MP4
+2026-06-01 22:01:41,513 INFO Indexing media 56/198: GX120045.MP4
+2026-06-01 22:01:41,755 INFO Indexing media 57/198: GX130045.MP4
+2026-06-01 22:01:42,003 INFO Indexing media 58/198: GX140045.MP4
+2026-06-01 22:01:42,255 INFO Indexing media 59/198: GX150045.MP4
+2026-06-01 22:01:42,496 INFO Indexing media 60/198: GX160045.MP4
+2026-06-01 22:01:42,730 INFO Indexing media 61/198: GX170045.MP4
+2026-06-01 22:01:42,969 INFO Indexing media 62/198: GX180045.MP4
+2026-06-01 22:01:43,205 INFO Indexing media 63/198: GX190045.MP4
+2026-06-01 22:01:43,437 INFO Indexing media 64/198: GX200045.MP4
+2026-06-01 22:01:43,675 INFO Indexing media 65/198: GX210045.MP4
+2026-06-01 22:01:43,913 INFO Indexing media 66/198: GX220045.MP4
+2026-06-01 22:01:44,149 INFO Indexing media 67/198: GX230045.MP4
+2026-06-01 22:01:44,382 INFO Indexing media 68/198: GX240045.MP4
+2026-06-01 22:01:44,623 INFO Indexing media 69/198: GX250045.MP4
+2026-06-01 22:01:44,858 INFO Indexing media 70/198: GX260045.MP4
+2026-06-01 22:01:45,091 INFO Indexing media 71/198: GX270045.MP4
+2026-06-01 22:01:45,332 INFO Indexing media 72/198: GX280045.MP4
+2026-06-01 22:01:45,582 INFO Indexing media 73/198: GX290045.MP4
+2026-06-01 22:01:45,827 INFO Indexing media 74/198: GX300045.MP4
+2026-06-01 22:01:46,061 INFO Indexing media 75/198: GX310045.MP4
+2026-06-01 22:01:46,308 INFO Indexing media 76/198: GX320045.MP4
+2026-06-01 22:01:46,563 INFO Indexing media 77/198: GX330045.MP4
+2026-06-01 22:01:46,809 INFO Indexing media 78/198: GX340045.MP4
+2026-06-01 22:01:47,058 INFO Indexing media 79/198: GX350045.MP4
+2026-06-01 22:01:47,297 INFO Indexing media 80/198: GX360045.MP4
+2026-06-01 22:01:47,544 INFO Indexing media 81/198: GX370045.MP4
+2026-06-01 22:01:47,783 INFO Indexing media 82/198: GX380045.MP4
+2026-06-01 22:01:48,025 INFO Indexing media 83/198: GX390045.MP4
+2026-06-01 22:01:48,270 INFO Indexing media 84/198: GX400045.MP4
+2026-06-01 22:01:48,507 INFO Indexing media 85/198: GX410045.MP4
+2026-06-01 22:01:48,756 INFO Indexing media 86/198: GX420045.MP4
+2026-06-01 22:01:48,995 INFO Indexing media 87/198: GX430045.MP4
+2026-06-01 22:01:49,229 INFO Indexing media 88/198: GX440045.MP4
+2026-06-01 22:01:49,464 INFO Indexing media 89/198: GX450045.MP4
+2026-06-01 22:01:49,705 INFO Indexing media 90/198: GX460045.MP4
+2026-06-01 22:01:49,951 INFO Indexing media 91/198: GX470045.MP4
+2026-06-01 22:01:50,185 INFO Indexing media 92/198: GX480045.MP4
+2026-06-01 22:01:50,431 INFO Indexing media 93/198: GX490045.MP4
+2026-06-01 22:01:50,675 INFO Indexing media 94/198: GX500045.MP4
+2026-06-01 22:01:50,913 INFO Indexing media 95/198: GX510045.MP4
+2026-06-01 22:01:51,156 INFO Indexing media 96/198: GX520045.MP4
+2026-06-01 22:01:51,405 INFO Indexing media 97/198: GX530045.MP4
+2026-06-01 22:01:51,653 INFO Indexing media 98/198: GX540045.MP4
+2026-06-01 22:01:51,892 INFO Indexing media 99/198: GX550045.MP4
+2026-06-01 22:01:52,119 INFO Indexing media 100/198: GX010046.MP4
+2026-06-01 22:01:52,352 INFO Indexing media 101/198: GX020046.MP4
+2026-06-01 22:01:52,590 INFO Indexing media 102/198: GX030046.MP4
+2026-06-01 22:01:52,829 INFO Indexing media 103/198: GX010028.MP4
+2026-06-01 22:01:53,063 INFO Indexing media 104/198: GX010031.MP4
+2026-06-01 22:01:53,298 INFO Indexing media 105/198: GX020031.MP4
+2026-06-01 22:01:53,535 INFO Indexing media 106/198: GX030031.MP4
+2026-06-01 22:01:53,768 INFO Indexing media 107/198: GX040031.MP4
+2026-06-01 22:01:54,003 INFO Indexing media 108/198: GX050031.MP4
+2026-06-01 22:01:54,249 INFO Indexing media 109/198: GX060031.MP4
+2026-06-01 22:01:54,484 INFO Indexing media 110/198: GX070031.MP4
+2026-06-01 22:01:54,723 INFO Indexing media 111/198: GX080031.MP4
+2026-06-01 22:01:54,955 INFO Indexing media 112/198: GX090031.MP4
+2026-06-01 22:01:55,188 INFO Indexing media 113/198: GX100031.MP4
+2026-06-01 22:01:55,424 INFO Indexing media 114/198: GX110031.MP4
+2026-06-01 22:01:55,660 INFO Indexing media 115/198: GX120031.MP4
+2026-06-01 22:01:55,900 INFO Indexing media 116/198: GX130031.MP4
+2026-06-01 22:01:56,135 INFO Indexing media 117/198: GX140031.MP4
+2026-06-01 22:01:56,383 INFO Indexing media 118/198: GX150031.MP4
+2026-06-01 22:01:56,636 INFO Indexing media 119/198: GX160031.MP4
+2026-06-01 22:01:56,875 INFO Indexing media 120/198: GX170031.MP4
+2026-06-01 22:01:57,122 INFO Indexing media 121/198: GX180031.MP4
+2026-06-01 22:01:57,380 INFO Indexing media 122/198: GX190031.MP4
+2026-06-01 22:01:57,633 INFO Indexing media 123/198: GX200031.MP4
+2026-06-01 22:01:57,868 INFO Indexing media 124/198: GX210031.MP4
+2026-06-01 22:01:58,133 INFO Indexing media 125/198: GX220031.MP4
+2026-06-01 22:01:58,387 INFO Indexing media 126/198: GX230031.MP4
+2026-06-01 22:01:58,644 INFO Indexing media 127/198: GX240031.MP4
+2026-06-01 22:01:58,909 INFO Indexing media 128/198: GX250031.MP4
+2026-06-01 22:01:59,150 INFO Indexing media 129/198: GX260031.MP4
+2026-06-01 22:01:59,400 INFO Indexing media 130/198: GX270031.MP4
+2026-06-01 22:01:59,636 INFO Indexing media 131/198: GX280031.MP4
+2026-06-01 22:01:59,879 INFO Indexing media 132/198: GX290031.MP4
+2026-06-01 22:02:00,133 INFO Indexing media 133/198: GX300031.MP4
+2026-06-01 22:02:00,386 INFO Indexing media 134/198: GX310031.MP4
+2026-06-01 22:02:00,632 INFO Indexing media 135/198: GX320031.MP4
+2026-06-01 22:02:00,888 INFO Indexing media 136/198: GX330031.MP4
+2026-06-01 22:02:01,131 INFO Indexing media 137/198: GX340031.MP4
+2026-06-01 22:02:01,369 INFO Indexing media 138/198: GX350031.MP4
+2026-06-01 22:02:01,608 INFO Indexing media 139/198: GX360031.MP4
+2026-06-01 22:02:01,860 INFO Indexing media 140/198: GX370031.MP4
+2026-06-01 22:02:02,103 INFO Indexing media 141/198: GX380031.MP4
+2026-06-01 22:02:02,343 INFO Indexing media 142/198: GX390031.MP4
+2026-06-01 22:02:02,589 INFO Indexing media 143/198: GX400031.MP4
+2026-06-01 22:02:02,826 INFO Indexing media 144/198: GX410031.MP4
+2026-06-01 22:02:03,060 INFO Indexing media 145/198: GX420031.MP4
+2026-06-01 22:02:03,302 INFO Indexing media 146/198: GX430031.MP4
+2026-06-01 22:02:03,547 INFO Indexing media 147/198: GX440031.MP4
+2026-06-01 22:02:03,781 INFO Indexing media 148/198: GX450031.MP4
+2026-06-01 22:02:04,016 INFO Indexing media 149/198: GX460031.MP4
+2026-06-01 22:02:04,248 INFO Indexing media 150/198: GX470031.MP4
+2026-06-01 22:02:04,490 INFO Indexing media 151/198: GX480031.MP4
+2026-06-01 22:02:04,733 INFO Indexing media 152/198: GX490031.MP4
+2026-06-01 22:02:04,970 INFO Indexing media 153/198: GX500031.MP4
+2026-06-01 22:02:05,212 INFO Indexing media 154/198: GX510031.MP4
+2026-06-01 22:02:05,456 INFO Indexing media 155/198: GX520031.MP4
+2026-06-01 22:02:05,710 INFO Indexing media 156/198: GX530031.MP4
+2026-06-01 22:02:05,967 INFO Indexing media 157/198: GX540031.MP4
+2026-06-01 22:02:06,221 INFO Indexing media 158/198: GX010026.MP4
+2026-06-01 22:02:06,468 INFO Indexing media 159/198: GX010029.MP4
+2026-06-01 22:02:06,730 INFO Indexing media 160/198: GX010030.MP4
+2026-06-01 22:02:07,004 INFO Indexing media 161/198: GX020030.MP4
+2026-06-01 22:02:07,274 INFO Indexing media 162/198: GX030030.MP4
+2026-06-01 22:02:07,529 INFO Indexing media 163/198: GX040030.MP4
+2026-06-01 22:02:07,787 INFO Indexing media 164/198: GX050030.MP4
+2026-06-01 22:02:08,034 INFO Indexing media 165/198: GX060030.MP4
+2026-06-01 22:02:08,290 INFO Indexing media 166/198: GX070030.MP4
+2026-06-01 22:02:08,554 INFO Indexing media 167/198: GX080030.MP4
+2026-06-01 22:02:08,815 INFO Indexing media 168/198: GX090030.MP4
+2026-06-01 22:02:09,078 INFO Indexing media 169/198: GX100030.MP4
+2026-06-01 22:02:09,341 INFO Indexing media 170/198: GX110030.MP4
+2026-06-01 22:02:09,625 INFO Indexing media 171/198: GX120030.MP4
+2026-06-01 22:02:09,889 INFO Indexing media 172/198: GX130030.MP4
+2026-06-01 22:02:10,151 INFO Indexing media 173/198: GX140030.MP4
+2026-06-01 22:02:10,421 INFO Indexing media 174/198: GX150030.MP4
+2026-06-01 22:02:10,689 INFO Indexing media 175/198: GX160030.MP4
+2026-06-01 22:02:10,944 INFO Indexing media 176/198: GX170030.MP4
+2026-06-01 22:02:11,190 INFO Indexing media 177/198: GX180030.MP4
+2026-06-01 22:02:11,445 INFO Indexing media 178/198: GX190030.MP4
+2026-06-01 22:02:11,700 INFO Indexing media 179/198: GX200030.MP4
+2026-06-01 22:02:11,943 INFO Indexing media 180/198: GX210030.MP4
+2026-06-01 22:02:12,192 INFO Indexing media 181/198: GX220030.MP4
+2026-06-01 22:02:12,440 INFO Indexing media 182/198: GX230030.MP4
+2026-06-01 22:02:12,681 INFO Indexing media 183/198: GX240030.MP4
+2026-06-01 22:02:12,929 INFO Indexing media 184/198: GX250030.MP4
+2026-06-01 22:02:13,172 INFO Indexing media 185/198: GX260030.MP4
+2026-06-01 22:02:13,416 INFO Indexing media 186/198: GX270030.MP4
+2026-06-01 22:02:13,665 INFO Indexing media 187/198: GX280030.MP4
+2026-06-01 22:02:13,923 INFO Indexing media 188/198: GX290030.MP4
+2026-06-01 22:02:14,170 INFO Indexing media 189/198: GX300030.MP4
+2026-06-01 22:02:14,415 INFO Indexing media 190/198: GX310030.MP4
+2026-06-01 22:02:14,670 INFO Indexing media 191/198: GX320030.MP4
+2026-06-01 22:02:14,915 INFO Indexing media 192/198: GX330030.MP4
+2026-06-01 22:02:15,160 INFO Indexing media 193/198: GX340030.MP4
+2026-06-01 22:02:15,412 INFO Indexing media 194/198: GX350030.MP4
+2026-06-01 22:02:15,666 INFO Indexing media 195/198: GX360030.MP4
+2026-06-01 22:02:15,914 INFO Indexing media 196/198: GX370030.MP4
+2026-06-01 22:02:16,161 INFO Indexing media 197/198: GX380030.MP4
+2026-06-01 22:02:16,418 INFO Indexing media 198/198: GX390030.MP4
+2026-06-01 22:02:18,201 INFO Preparing semantic zones for room_1
+2026-06-01 22:02:18,796 INFO Preparing semantic zones for room_2
+2026-06-01 22:02:19,526 INFO Video features media 1/198: media_000001 (1 windows)
+2026-06-01 22:02:19,527 INFO Computing video features for media_000001
+2026-06-01 22:02:19,789 INFO Processed 1/57763 video windows
+2026-06-01 22:02:19,790 INFO Video features media 2/198: media_000002 (299 windows)
+2026-06-01 22:02:19,790 INFO Computing video features for media_000002
+2026-06-01 22:03:54,734 INFO Processed 300/57763 video windows
+2026-06-01 22:03:54,736 INFO Video features media 3/198: media_000003 (299 windows)
+2026-06-01 22:03:54,736 INFO Computing video features for media_000003
+2026-06-01 22:05:26,643 INFO Processed 599/57763 video windows
+2026-06-01 22:05:26,643 INFO Video features media 4/198: media_000004 (299 windows)
+2026-06-01 22:05:26,645 INFO Computing video features for media_000004
+2026-06-01 22:07:00,549 INFO Processed 898/57763 video windows
+2026-06-01 22:07:00,550 INFO Video features media 5/198: media_000005 (299 windows)
+2026-06-01 22:07:00,550 INFO Computing video features for media_000005
+2026-06-01 22:08:32,579 INFO Processed 1197/57763 video windows
+2026-06-01 22:08:32,581 INFO Video features media 6/198: media_000006 (299 windows)
+2026-06-01 22:08:32,582 INFO Computing video features for media_000006
+2026-06-01 22:09:21,837 INFO Processed 1496/57763 video windows
+2026-06-01 22:09:21,839 INFO Video features media 7/198: media_000007 (299 windows)
+2026-06-01 22:09:21,839 INFO Computing video features for media_000007
+2026-06-01 22:10:43,393 INFO Processed 1795/57763 video windows
+2026-06-01 22:10:43,395 INFO Video features media 8/198: media_000008 (299 windows)
+2026-06-01 22:10:43,395 INFO Computing video features for media_000008
+2026-06-01 22:12:15,517 INFO Processed 2094/57763 video windows
+2026-06-01 22:12:15,519 INFO Video features media 9/198: media_000009 (299 windows)
+2026-06-01 22:12:15,519 INFO Computing video features for media_000009
+2026-06-01 22:13:46,967 INFO Processed 2393/57763 video windows
+2026-06-01 22:13:46,969 INFO Video features media 10/198: media_000010 (299 windows)
+2026-06-01 22:13:46,970 INFO Computing video features for media_000010
+2026-06-01 22:15:17,892 INFO Processed 2692/57763 video windows
+2026-06-01 22:15:17,892 INFO Video features media 11/198: media_000011 (299 windows)
+2026-06-01 22:15:17,893 INFO Computing video features for media_000011
+2026-06-01 22:16:48,905 INFO Processed 2991/57763 video windows
+2026-06-01 22:16:48,906 INFO Video features media 12/198: media_000012 (299 windows)
+2026-06-01 22:16:48,906 INFO Computing video features for media_000012
+2026-06-01 22:18:19,676 INFO Processed 3290/57763 video windows
+2026-06-01 22:18:19,677 INFO Video features media 13/198: media_000013 (299 windows)
+2026-06-01 22:18:19,678 INFO Computing video features for media_000013
+2026-06-01 22:19:50,174 INFO Processed 3589/57763 video windows
+2026-06-01 22:19:50,176 INFO Video features media 14/198: media_000014 (299 windows)
+2026-06-01 22:19:50,176 INFO Computing video features for media_000014
+2026-06-01 22:21:20,953 INFO Processed 3888/57763 video windows
+2026-06-01 22:21:20,954 INFO Video features media 15/198: media_000015 (299 windows)
+2026-06-01 22:21:20,955 INFO Computing video features for media_000015
+2026-06-01 22:22:51,891 INFO Processed 4187/57763 video windows
+2026-06-01 22:22:51,892 INFO Video features media 16/198: media_000016 (299 windows)
+2026-06-01 22:22:51,892 INFO Computing video features for media_000016
+2026-06-01 22:24:22,614 INFO Processed 4486/57763 video windows
+2026-06-01 22:24:22,616 INFO Video features media 17/198: media_000017 (299 windows)
+2026-06-01 22:24:22,617 INFO Computing video features for media_000017
+2026-06-01 22:25:53,441 INFO Processed 4785/57763 video windows
+2026-06-01 22:25:53,443 INFO Video features media 18/198: media_000018 (299 windows)
+2026-06-01 22:25:53,443 INFO Computing video features for media_000018
+2026-06-01 22:27:24,776 INFO Processed 5084/57763 video windows
+2026-06-01 22:27:24,777 INFO Video features media 19/198: media_000019 (299 windows)
+2026-06-01 22:27:24,777 INFO Computing video features for media_000019
+2026-06-01 22:28:21,141 INFO Processed 5383/57763 video windows
+2026-06-01 22:28:21,143 INFO Video features media 20/198: media_000020 (299 windows)
+2026-06-01 22:28:21,144 INFO Computing video features for media_000020
+2026-06-01 22:29:08,824 INFO Processed 5682/57763 video windows
+2026-06-01 22:29:08,825 INFO Video features media 21/198: media_000021 (299 windows)
+2026-06-01 22:29:08,825 INFO Computing video features for media_000021
+2026-06-01 22:29:56,879 INFO Processed 5981/57763 video windows
+2026-06-01 22:29:56,880 INFO Video features media 22/198: media_000022 (299 windows)
+2026-06-01 22:29:56,880 INFO Computing video features for media_000022
+2026-06-01 22:30:45,357 INFO Processed 6280/57763 video windows
+2026-06-01 22:30:45,358 INFO Video features media 23/198: media_000023 (299 windows)
+2026-06-01 22:30:45,358 INFO Computing video features for media_000023
+2026-06-01 22:31:33,980 INFO Processed 6579/57763 video windows
+2026-06-01 22:31:33,981 INFO Video features media 24/198: media_000024 (299 windows)
+2026-06-01 22:31:33,982 INFO Computing video features for media_000024
+2026-06-01 22:32:22,480 INFO Processed 6878/57763 video windows
+2026-06-01 22:32:22,481 INFO Video features media 25/198: media_000025 (299 windows)
+2026-06-01 22:32:22,482 INFO Computing video features for media_000025
+2026-06-01 22:33:10,287 INFO Processed 7177/57763 video windows
+2026-06-01 22:33:10,288 INFO Video features media 26/198: media_000026 (299 windows)
+2026-06-01 22:33:10,289 INFO Computing video features for media_000026
+2026-06-01 22:33:58,245 INFO Processed 7476/57763 video windows
+2026-06-01 22:33:58,246 INFO Video features media 27/198: media_000027 (299 windows)
+2026-06-01 22:33:58,247 INFO Computing video features for media_000027
+2026-06-01 22:34:45,644 INFO Processed 7775/57763 video windows
+2026-06-01 22:34:45,645 INFO Video features media 28/198: media_000028 (299 windows)
+2026-06-01 22:34:45,646 INFO Computing video features for media_000028
+2026-06-01 22:35:34,666 INFO Processed 8074/57763 video windows
+2026-06-01 22:35:34,667 INFO Video features media 29/198: media_000029 (299 windows)
+2026-06-01 22:35:34,667 INFO Computing video features for media_000029
+2026-06-01 22:36:22,870 INFO Processed 8373/57763 video windows
+2026-06-01 22:36:22,872 INFO Video features media 30/198: media_000030 (299 windows)
+2026-06-01 22:36:22,872 INFO Computing video features for media_000030
+2026-06-01 22:37:11,928 INFO Processed 8672/57763 video windows
+2026-06-01 22:37:11,929 INFO Video features media 31/198: media_000031 (299 windows)
+2026-06-01 22:37:11,929 INFO Computing video features for media_000031
+2026-06-01 22:38:01,197 INFO Processed 8971/57763 video windows
+2026-06-01 22:38:01,198 INFO Video features media 32/198: media_000032 (299 windows)
+2026-06-01 22:38:01,200 INFO Computing video features for media_000032
+2026-06-01 22:38:50,285 INFO Processed 9270/57763 video windows
+2026-06-01 22:38:50,286 INFO Video features media 33/198: media_000033 (299 windows)
+2026-06-01 22:38:50,286 INFO Computing video features for media_000033
+2026-06-01 22:39:39,446 INFO Processed 9569/57763 video windows
+2026-06-01 22:39:39,446 INFO Video features media 34/198: media_000034 (299 windows)
+2026-06-01 22:39:39,447 INFO Computing video features for media_000034
+2026-06-01 22:40:28,637 INFO Processed 9868/57763 video windows
+2026-06-01 22:40:28,638 INFO Video features media 35/198: media_000035 (299 windows)
+2026-06-01 22:40:28,638 INFO Computing video features for media_000035
+2026-06-01 22:41:18,861 INFO Processed 10167/57763 video windows
+2026-06-01 22:41:18,863 INFO Video features media 36/198: media_000036 (299 windows)
+2026-06-01 22:41:18,863 INFO Computing video features for media_000036
+2026-06-01 22:42:50,106 INFO Processed 10466/57763 video windows
+2026-06-01 22:42:50,108 INFO Video features media 37/198: media_000037 (299 windows)
+2026-06-01 22:42:50,108 INFO Computing video features for media_000037
+2026-06-01 22:44:20,283 INFO Processed 10765/57763 video windows
+2026-06-01 22:44:20,284 INFO Video features media 38/198: media_000038 (299 windows)
+2026-06-01 22:44:20,285 INFO Computing video features for media_000038
+2026-06-01 22:45:50,619 INFO Processed 11064/57763 video windows
+2026-06-01 22:45:50,621 INFO Video features media 39/198: media_000039 (299 windows)
+2026-06-01 22:45:50,621 INFO Computing video features for media_000039
+2026-06-01 22:47:21,218 INFO Processed 11363/57763 video windows
+2026-06-01 22:47:21,220 INFO Video features media 40/198: media_000040 (299 windows)
+2026-06-01 22:47:21,220 INFO Computing video features for media_000040
+2026-06-01 22:48:51,451 INFO Processed 11662/57763 video windows
+2026-06-01 22:48:51,451 INFO Video features media 41/198: media_000041 (299 windows)
+2026-06-01 22:48:51,452 INFO Computing video features for media_000041
+2026-06-01 22:50:21,392 INFO Processed 11961/57763 video windows
+2026-06-01 22:50:21,394 INFO Video features media 42/198: media_000042 (299 windows)
+2026-06-01 22:50:21,394 INFO Computing video features for media_000042
+2026-06-01 22:51:50,965 INFO Processed 12260/57763 video windows
+2026-06-01 22:51:50,966 INFO Video features media 43/198: media_000043 (299 windows)
+2026-06-01 22:51:50,966 INFO Computing video features for media_000043
+2026-06-01 22:53:20,731 INFO Processed 12559/57763 video windows
+2026-06-01 22:53:20,732 INFO Video features media 44/198: media_000044 (168 windows)
+2026-06-01 22:53:20,732 INFO Computing video features for media_000044
+2026-06-01 22:54:11,666 INFO Processed 12727/57763 video windows
+2026-06-01 22:54:11,667 INFO Video features media 45/198: media_000045 (299 windows)
+2026-06-01 22:54:11,668 INFO Computing video features for media_000045
+2026-06-01 22:55:45,974 INFO Processed 13026/57763 video windows
+2026-06-01 22:55:45,975 INFO Video features media 46/198: media_000046 (299 windows)
+2026-06-01 22:55:45,976 INFO Computing video features for media_000046
+2026-06-01 22:57:17,218 INFO Processed 13325/57763 video windows
+2026-06-01 22:57:17,219 INFO Video features media 47/198: media_000047 (299 windows)
+2026-06-01 22:57:17,219 INFO Computing video features for media_000047
+2026-06-01 22:58:44,462 INFO Processed 13624/57763 video windows
+2026-06-01 22:58:44,464 INFO Video features media 48/198: media_000048 (299 windows)
+2026-06-01 22:58:44,464 INFO Computing video features for media_000048
+2026-06-01 22:59:34,489 INFO Processed 13923/57763 video windows
+2026-06-01 22:59:34,490 INFO Video features media 49/198: media_000049 (299 windows)
+2026-06-01 22:59:34,490 INFO Computing video features for media_000049
+2026-06-01 23:00:21,449 INFO Processed 14222/57763 video windows
+2026-06-01 23:00:21,451 INFO Video features media 50/198: media_000050 (299 windows)
+2026-06-01 23:00:21,451 INFO Computing video features for media_000050
+2026-06-01 23:01:08,374 INFO Processed 14521/57763 video windows
+2026-06-01 23:01:08,375 INFO Video features media 51/198: media_000051 (299 windows)
+2026-06-01 23:01:08,376 INFO Computing video features for media_000051
+2026-06-01 23:01:55,537 INFO Processed 14820/57763 video windows
+2026-06-01 23:01:55,538 INFO Video features media 52/198: media_000052 (299 windows)
+2026-06-01 23:01:55,539 INFO Computing video features for media_000052
+2026-06-01 23:02:43,367 INFO Processed 15119/57763 video windows
+2026-06-01 23:02:43,369 INFO Video features media 53/198: media_000053 (299 windows)
+2026-06-01 23:02:43,369 INFO Computing video features for media_000053
+2026-06-01 23:03:30,164 INFO Processed 15418/57763 video windows
+2026-06-01 23:03:30,165 INFO Video features media 54/198: media_000054 (299 windows)
+2026-06-01 23:03:30,166 INFO Computing video features for media_000054
+2026-06-01 23:04:16,608 INFO Processed 15717/57763 video windows
+2026-06-01 23:04:16,609 INFO Video features media 55/198: media_000055 (299 windows)
+2026-06-01 23:04:16,609 INFO Computing video features for media_000055
+2026-06-01 23:05:04,052 INFO Processed 16016/57763 video windows
+2026-06-01 23:05:04,054 INFO Video features media 56/198: media_000056 (299 windows)
+2026-06-01 23:05:04,054 INFO Computing video features for media_000056
+2026-06-01 23:05:51,530 INFO Processed 16315/57763 video windows
+2026-06-01 23:05:51,531 INFO Video features media 57/198: media_000057 (299 windows)
+2026-06-01 23:05:51,532 INFO Computing video features for media_000057
+2026-06-01 23:06:38,968 INFO Processed 16614/57763 video windows
+2026-06-01 23:06:38,969 INFO Video features media 58/198: media_000058 (299 windows)
+2026-06-01 23:06:38,970 INFO Computing video features for media_000058
+2026-06-01 23:07:26,661 INFO Processed 16913/57763 video windows
+2026-06-01 23:07:26,662 INFO Video features media 59/198: media_000059 (299 windows)
+2026-06-01 23:07:26,662 INFO Computing video features for media_000059
+2026-06-01 23:08:14,597 INFO Processed 17212/57763 video windows
+2026-06-01 23:08:14,598 INFO Video features media 60/198: media_000060 (299 windows)
+2026-06-01 23:08:14,598 INFO Computing video features for media_000060
+2026-06-01 23:09:02,289 INFO Processed 17511/57763 video windows
+2026-06-01 23:09:02,290 INFO Video features media 61/198: media_000061 (299 windows)
+2026-06-01 23:09:02,290 INFO Computing video features for media_000061
+2026-06-01 23:09:49,932 INFO Processed 17810/57763 video windows
+2026-06-01 23:09:49,933 INFO Video features media 62/198: media_000062 (299 windows)
+2026-06-01 23:09:49,934 INFO Computing video features for media_000062
+2026-06-01 23:10:37,598 INFO Processed 18109/57763 video windows
+2026-06-01 23:10:37,599 INFO Video features media 63/198: media_000063 (299 windows)
+2026-06-01 23:10:37,600 INFO Computing video features for media_000063
+2026-06-01 23:11:25,524 INFO Processed 18408/57763 video windows
+2026-06-01 23:11:25,525 INFO Video features media 64/198: media_000064 (299 windows)
+2026-06-01 23:11:25,526 INFO Computing video features for media_000064
+2026-06-01 23:12:20,125 INFO Processed 18707/57763 video windows
+2026-06-01 23:12:20,126 INFO Video features media 65/198: media_000065 (299 windows)
+2026-06-01 23:12:20,127 INFO Computing video features for media_000065
+2026-06-01 23:13:43,142 INFO Processed 19006/57763 video windows
+2026-06-01 23:13:43,144 INFO Video features media 66/198: media_000066 (299 windows)
+2026-06-01 23:13:43,144 INFO Computing video features for media_000066
+2026-06-01 23:15:06,416 INFO Processed 19305/57763 video windows
+2026-06-01 23:15:06,418 INFO Video features media 67/198: media_000067 (299 windows)
+2026-06-01 23:15:06,418 INFO Computing video features for media_000067
+2026-06-01 23:16:28,091 INFO Processed 19604/57763 video windows
+2026-06-01 23:16:28,092 INFO Video features media 68/198: media_000068 (299 windows)
+2026-06-01 23:16:28,093 INFO Computing video features for media_000068
+2026-06-01 23:17:49,315 INFO Processed 19903/57763 video windows
+2026-06-01 23:17:49,316 INFO Video features media 69/198: media_000069 (299 windows)
+2026-06-01 23:17:49,317 INFO Computing video features for media_000069
+2026-06-01 23:19:10,561 INFO Processed 20202/57763 video windows
+2026-06-01 23:19:10,562 INFO Video features media 70/198: media_000070 (299 windows)
+2026-06-01 23:19:10,563 INFO Computing video features for media_000070
+2026-06-01 23:20:33,015 INFO Processed 20501/57763 video windows
+2026-06-01 23:20:33,016 INFO Video features media 71/198: media_000071 (299 windows)
+2026-06-01 23:20:33,016 INFO Computing video features for media_000071
+2026-06-01 23:21:55,228 INFO Processed 20800/57763 video windows
+2026-06-01 23:21:55,229 INFO Video features media 72/198: media_000072 (299 windows)
+2026-06-01 23:21:55,229 INFO Computing video features for media_000072
+2026-06-01 23:23:16,791 INFO Processed 21099/57763 video windows
+2026-06-01 23:23:16,792 INFO Video features media 73/198: media_000073 (299 windows)
+2026-06-01 23:23:16,793 INFO Computing video features for media_000073
+2026-06-01 23:24:38,011 INFO Processed 21398/57763 video windows
+2026-06-01 23:24:38,012 INFO Video features media 74/198: media_000074 (299 windows)
+2026-06-01 23:24:38,012 INFO Computing video features for media_000074
+2026-06-01 23:25:59,649 INFO Processed 21697/57763 video windows
+2026-06-01 23:25:59,650 INFO Video features media 75/198: media_000075 (299 windows)
+2026-06-01 23:25:59,651 INFO Computing video features for media_000075
+2026-06-01 23:27:22,431 INFO Processed 21996/57763 video windows
+2026-06-01 23:27:22,432 INFO Video features media 76/198: media_000076 (299 windows)
+2026-06-01 23:27:22,433 INFO Computing video features for media_000076
+2026-06-01 23:28:37,709 INFO Processed 22295/57763 video windows
+2026-06-01 23:28:37,710 INFO Video features media 77/198: media_000077 (299 windows)
+2026-06-01 23:28:37,710 INFO Computing video features for media_000077
+2026-06-01 23:29:25,635 INFO Processed 22594/57763 video windows
+2026-06-01 23:29:25,637 INFO Video features media 78/198: media_000078 (299 windows)
+2026-06-01 23:29:25,639 INFO Computing video features for media_000078
+2026-06-01 23:30:14,046 INFO Processed 22893/57763 video windows
+2026-06-01 23:30:14,048 INFO Video features media 79/198: media_000079 (299 windows)
+2026-06-01 23:30:14,048 INFO Computing video features for media_000079
+2026-06-01 23:31:01,392 INFO Processed 23192/57763 video windows
+2026-06-01 23:31:01,393 INFO Video features media 80/198: media_000080 (299 windows)
+2026-06-01 23:31:01,393 INFO Computing video features for media_000080
+2026-06-01 23:31:49,378 INFO Processed 23491/57763 video windows
+2026-06-01 23:31:49,380 INFO Video features media 81/198: media_000081 (299 windows)
+2026-06-01 23:31:49,380 INFO Computing video features for media_000081
+2026-06-01 23:32:37,089 INFO Processed 23790/57763 video windows
+2026-06-01 23:32:37,090 INFO Video features media 82/198: media_000082 (299 windows)
+2026-06-01 23:32:37,091 INFO Computing video features for media_000082
+2026-06-01 23:33:24,812 INFO Processed 24089/57763 video windows
+2026-06-01 23:33:24,813 INFO Video features media 83/198: media_000083 (299 windows)
+2026-06-01 23:33:24,814 INFO Computing video features for media_000083
+2026-06-01 23:34:12,352 INFO Processed 24388/57763 video windows
+2026-06-01 23:34:12,353 INFO Video features media 84/198: media_000084 (299 windows)
+2026-06-01 23:34:12,354 INFO Computing video features for media_000084
+2026-06-01 23:35:00,928 INFO Processed 24687/57763 video windows
+2026-06-01 23:35:00,929 INFO Video features media 85/198: media_000085 (299 windows)
+2026-06-01 23:35:00,929 INFO Computing video features for media_000085
+2026-06-01 23:35:48,908 INFO Processed 24986/57763 video windows
+2026-06-01 23:35:48,910 INFO Video features media 86/198: media_000086 (299 windows)
+2026-06-01 23:35:48,911 INFO Computing video features for media_000086
+2026-06-01 23:36:36,707 INFO Processed 25285/57763 video windows
+2026-06-01 23:36:36,708 INFO Video features media 87/198: media_000087 (299 windows)
+2026-06-01 23:36:36,709 INFO Computing video features for media_000087
+2026-06-01 23:37:24,517 INFO Processed 25584/57763 video windows
+2026-06-01 23:37:24,518 INFO Video features media 88/198: media_000088 (299 windows)
+2026-06-01 23:37:24,518 INFO Computing video features for media_000088
+2026-06-01 23:38:11,448 INFO Processed 25883/57763 video windows
+2026-06-01 23:38:11,450 INFO Video features media 89/198: media_000089 (299 windows)
+2026-06-01 23:38:11,450 INFO Computing video features for media_000089
+2026-06-01 23:38:58,743 INFO Processed 26182/57763 video windows
+2026-06-01 23:38:58,744 INFO Video features media 90/198: media_000090 (299 windows)
+2026-06-01 23:38:58,745 INFO Computing video features for media_000090
+2026-06-01 23:39:46,243 INFO Processed 26481/57763 video windows
+2026-06-01 23:39:46,244 INFO Video features media 91/198: media_000091 (299 windows)
+2026-06-01 23:39:46,245 INFO Computing video features for media_000091
+2026-06-01 23:40:33,089 INFO Processed 26780/57763 video windows
+2026-06-01 23:40:33,090 INFO Video features media 92/198: media_000092 (299 windows)
+2026-06-01 23:40:33,092 INFO Computing video features for media_000092
+2026-06-01 23:41:20,730 INFO Processed 27079/57763 video windows
+2026-06-01 23:41:20,731 INFO Video features media 93/198: media_000093 (299 windows)
+2026-06-01 23:41:20,731 INFO Computing video features for media_000093
+2026-06-01 23:42:26,232 INFO Processed 27378/57763 video windows
+2026-06-01 23:42:26,234 INFO Video features media 94/198: media_000094 (299 windows)
+2026-06-01 23:42:26,235 INFO Computing video features for media_000094
+2026-06-01 23:43:50,085 INFO Processed 27677/57763 video windows
+2026-06-01 23:43:50,086 INFO Video features media 95/198: media_000095 (299 windows)
+2026-06-01 23:43:50,087 INFO Computing video features for media_000095
+2026-06-01 23:45:13,363 INFO Processed 27976/57763 video windows
+2026-06-01 23:45:13,365 INFO Video features media 96/198: media_000096 (299 windows)
+2026-06-01 23:45:13,365 INFO Computing video features for media_000096
+2026-06-01 23:46:36,225 INFO Processed 28275/57763 video windows
+2026-06-01 23:46:36,226 INFO Video features media 97/198: media_000097 (299 windows)
+2026-06-01 23:46:36,227 INFO Computing video features for media_000097
+2026-06-01 23:47:57,398 INFO Processed 28574/57763 video windows
+2026-06-01 23:47:57,400 INFO Video features media 98/198: media_000098 (299 windows)
+2026-06-01 23:47:57,401 INFO Computing video features for media_000098
+2026-06-01 23:49:20,086 INFO Processed 28873/57763 video windows
+2026-06-01 23:49:20,087 INFO Video features media 99/198: media_000099 (23 windows)
+2026-06-01 23:49:20,087 INFO Computing video features for media_000099
+2026-06-01 23:49:27,076 INFO Processed 28896/57763 video windows
+2026-06-01 23:49:27,077 INFO Video features media 100/198: media_000100 (113 windows)
+2026-06-01 23:49:27,078 INFO Computing video features for media_000100
+2026-06-01 23:51:54,656 INFO Processed 29009/57763 video windows
+2026-06-01 23:51:54,658 INFO Video features media 101/198: media_000101 (100 windows)
+2026-06-01 23:51:54,658 INFO Computing video features for media_000101
+2026-06-01 23:54:13,023 INFO Processed 29109/57763 video windows
+2026-06-01 23:54:13,024 INFO Video features media 102/198: media_000102 (100 windows)
+2026-06-01 23:54:13,025 INFO Computing video features for media_000102
+2026-06-01 23:56:35,277 INFO Processed 29209/57763 video windows
+2026-06-01 23:56:35,278 INFO Video features media 103/198: media_000103 (299 windows)
+2026-06-01 23:56:35,279 INFO Computing video features for media_000103
+2026-06-01 23:58:04,922 INFO Processed 29508/57763 video windows
+2026-06-01 23:58:04,923 INFO Video features media 104/198: media_000159 (299 windows)
+2026-06-01 23:58:04,924 INFO Computing video features for media_000159
+2026-06-01 23:59:33,899 INFO Processed 29807/57763 video windows
+2026-06-01 23:59:33,900 INFO Video features media 105/198: media_000160 (299 windows)
+2026-06-01 23:59:33,902 INFO Computing video features for media_000160
+2026-06-02 00:00:25,027 INFO Processed 30106/57763 video windows
+2026-06-02 00:00:25,029 INFO Video features media 106/198: media_000161 (299 windows)
+2026-06-02 00:00:25,029 INFO Computing video features for media_000161
+2026-06-02 00:01:41,561 INFO Processed 30405/57763 video windows
+2026-06-02 00:01:41,563 INFO Video features media 107/198: media_000162 (299 windows)
+2026-06-02 00:01:41,563 INFO Computing video features for media_000162
+2026-06-02 00:03:05,944 INFO Processed 30704/57763 video windows
+2026-06-02 00:03:05,946 INFO Video features media 108/198: media_000163 (299 windows)
+2026-06-02 00:03:05,946 INFO Computing video features for media_000163
+2026-06-02 00:04:30,373 INFO Processed 31003/57763 video windows
+2026-06-02 00:04:30,376 INFO Video features media 109/198: media_000164 (299 windows)
+2026-06-02 00:04:30,376 INFO Computing video features for media_000164
+2026-06-02 00:05:51,905 INFO Processed 31302/57763 video windows
+2026-06-02 00:05:51,907 INFO Video features media 110/198: media_000165 (299 windows)
+2026-06-02 00:05:51,908 INFO Computing video features for media_000165
+2026-06-02 00:07:14,372 INFO Processed 31601/57763 video windows
+2026-06-02 00:07:14,374 INFO Video features media 111/198: media_000166 (299 windows)
+2026-06-02 00:07:14,375 INFO Computing video features for media_000166
+2026-06-02 00:08:37,302 INFO Processed 31900/57763 video windows
+2026-06-02 00:08:37,303 INFO Video features media 112/198: media_000167 (299 windows)
+2026-06-02 00:08:37,304 INFO Computing video features for media_000167
+2026-06-02 00:09:57,909 INFO Processed 32199/57763 video windows
+2026-06-02 00:09:57,911 INFO Video features media 113/198: media_000168 (299 windows)
+2026-06-02 00:09:57,911 INFO Computing video features for media_000168
+2026-06-02 00:11:21,169 INFO Processed 32498/57763 video windows
+2026-06-02 00:11:21,171 INFO Video features media 114/198: media_000169 (299 windows)
+2026-06-02 00:11:21,172 INFO Computing video features for media_000169
+2026-06-02 00:12:44,209 INFO Processed 32797/57763 video windows
+2026-06-02 00:12:44,210 INFO Video features media 115/198: media_000170 (299 windows)
+2026-06-02 00:12:44,211 INFO Computing video features for media_000170
+2026-06-02 00:14:07,696 INFO Processed 33096/57763 video windows
+2026-06-02 00:14:07,697 INFO Video features media 116/198: media_000171 (299 windows)
+2026-06-02 00:14:07,698 INFO Computing video features for media_000171
+2026-06-02 00:15:31,746 INFO Processed 33395/57763 video windows
+2026-06-02 00:15:31,748 INFO Video features media 117/198: media_000172 (299 windows)
+2026-06-02 00:15:31,748 INFO Computing video features for media_000172
+2026-06-02 00:16:56,582 INFO Processed 33694/57763 video windows
+2026-06-02 00:16:56,584 INFO Video features media 118/198: media_000173 (299 windows)
+2026-06-02 00:16:56,584 INFO Computing video features for media_000173
+2026-06-02 00:17:56,275 INFO Processed 33993/57763 video windows
+2026-06-02 00:17:56,276 INFO Video features media 119/198: media_000174 (299 windows)
+2026-06-02 00:17:56,276 INFO Computing video features for media_000174
+2026-06-02 00:18:47,320 INFO Processed 34292/57763 video windows
+2026-06-02 00:18:47,321 INFO Video features media 120/198: media_000175 (299 windows)
+2026-06-02 00:18:47,322 INFO Computing video features for media_000175
+2026-06-02 00:19:38,694 INFO Processed 34591/57763 video windows
+2026-06-02 00:19:38,695 INFO Video features media 121/198: media_000176 (299 windows)
+2026-06-02 00:19:38,695 INFO Computing video features for media_000176
+2026-06-02 00:20:31,411 INFO Processed 34890/57763 video windows
+2026-06-02 00:20:31,413 INFO Video features media 122/198: media_000177 (299 windows)
+2026-06-02 00:20:31,413 INFO Computing video features for media_000177
+2026-06-02 00:21:24,506 INFO Processed 35189/57763 video windows
+2026-06-02 00:21:24,507 INFO Video features media 123/198: media_000178 (299 windows)
+2026-06-02 00:21:24,508 INFO Computing video features for media_000178
+2026-06-02 00:22:17,168 INFO Processed 35488/57763 video windows
+2026-06-02 00:22:17,169 INFO Video features media 124/198: media_000179 (299 windows)
+2026-06-02 00:22:17,171 INFO Computing video features for media_000179
+2026-06-02 00:23:10,267 INFO Processed 35787/57763 video windows
+2026-06-02 00:23:10,269 INFO Video features media 125/198: media_000180 (299 windows)
+2026-06-02 00:23:10,270 INFO Computing video features for media_000180
+2026-06-02 00:24:03,222 INFO Processed 36086/57763 video windows
+2026-06-02 00:24:03,224 INFO Video features media 126/198: media_000181 (299 windows)
+2026-06-02 00:24:03,224 INFO Computing video features for media_000181
+2026-06-02 00:24:56,339 INFO Processed 36385/57763 video windows
+2026-06-02 00:24:56,340 INFO Video features media 127/198: media_000182 (299 windows)
+2026-06-02 00:24:56,341 INFO Computing video features for media_000182
+2026-06-02 00:25:49,056 INFO Processed 36684/57763 video windows
+2026-06-02 00:25:49,058 INFO Video features media 128/198: media_000183 (299 windows)
+2026-06-02 00:25:49,059 INFO Computing video features for media_000183
+2026-06-02 00:26:41,925 INFO Processed 36983/57763 video windows
+2026-06-02 00:26:41,927 INFO Video features media 129/198: media_000184 (299 windows)
+2026-06-02 00:26:41,928 INFO Computing video features for media_000184
+2026-06-02 00:27:34,964 INFO Processed 37282/57763 video windows
+2026-06-02 00:27:34,965 INFO Video features media 130/198: media_000185 (299 windows)
+2026-06-02 00:27:34,966 INFO Computing video features for media_000185
+2026-06-02 00:28:27,602 INFO Processed 37581/57763 video windows
+2026-06-02 00:28:27,603 INFO Video features media 131/198: media_000186 (299 windows)
+2026-06-02 00:28:27,605 INFO Computing video features for media_000186
+2026-06-02 00:29:20,375 INFO Processed 37880/57763 video windows
+2026-06-02 00:29:20,377 INFO Video features media 132/198: media_000187 (299 windows)
+2026-06-02 00:29:20,378 INFO Computing video features for media_000187
+2026-06-02 00:30:13,398 INFO Processed 38179/57763 video windows
+2026-06-02 00:30:13,399 INFO Video features media 133/198: media_000188 (299 windows)
+2026-06-02 00:30:13,400 INFO Computing video features for media_000188
+2026-06-02 00:31:06,183 INFO Processed 38478/57763 video windows
+2026-06-02 00:31:06,185 INFO Video features media 134/198: media_000189 (299 windows)
+2026-06-02 00:31:06,186 INFO Computing video features for media_000189
+2026-06-02 00:32:00,264 INFO Processed 38777/57763 video windows
+2026-06-02 00:32:00,266 INFO Video features media 135/198: media_000190 (299 windows)
+2026-06-02 00:32:00,266 INFO Computing video features for media_000190
+2026-06-02 00:33:27,087 INFO Processed 39076/57763 video windows
+2026-06-02 00:33:27,088 INFO Video features media 136/198: media_000191 (299 windows)
+2026-06-02 00:33:27,089 INFO Computing video features for media_000191
+2026-06-02 00:34:53,432 INFO Processed 39375/57763 video windows
+2026-06-02 00:34:53,433 INFO Video features media 137/198: media_000192 (299 windows)
+2026-06-02 00:34:53,434 INFO Computing video features for media_000192
+2026-06-02 00:36:19,988 INFO Processed 39674/57763 video windows
+2026-06-02 00:36:19,990 INFO Video features media 138/198: media_000193 (299 windows)
+2026-06-02 00:36:19,991 INFO Computing video features for media_000193
+2026-06-02 00:37:46,136 INFO Processed 39973/57763 video windows
+2026-06-02 00:37:46,137 INFO Video features media 139/198: media_000194 (299 windows)
+2026-06-02 00:37:46,138 INFO Computing video features for media_000194
+2026-06-02 00:39:09,889 INFO Processed 40272/57763 video windows
+2026-06-02 00:39:09,890 INFO Video features media 140/198: media_000195 (299 windows)
+2026-06-02 00:39:09,892 INFO Computing video features for media_000195
+2026-06-02 00:40:34,601 INFO Processed 40571/57763 video windows
+2026-06-02 00:40:34,603 INFO Video features media 141/198: media_000196 (299 windows)
+2026-06-02 00:40:34,604 INFO Computing video features for media_000196
+2026-06-02 00:41:57,210 INFO Processed 40870/57763 video windows
+2026-06-02 00:41:57,212 INFO Video features media 142/198: media_000197 (299 windows)
+2026-06-02 00:41:57,212 INFO Computing video features for media_000197
+2026-06-02 00:43:23,017 INFO Processed 41169/57763 video windows
+2026-06-02 00:43:23,019 INFO Video features media 143/198: media_000198 (182 windows)
+2026-06-02 00:43:23,019 INFO Computing video features for media_000198
+2026-06-02 00:44:15,526 INFO Processed 41351/57763 video windows
+2026-06-02 00:44:15,527 INFO Video features media 144/198: media_000104 (299 windows)
+2026-06-02 00:44:15,528 INFO Computing video features for media_000104
+2026-06-02 00:45:47,457 INFO Processed 41650/57763 video windows
+2026-06-02 00:45:47,459 INFO Video features media 145/198: media_000105 (299 windows)
+2026-06-02 00:45:47,459 INFO Computing video features for media_000105
+2026-06-02 00:47:18,384 INFO Processed 41949/57763 video windows
+2026-06-02 00:47:18,386 INFO Video features media 146/198: media_000106 (299 windows)
+2026-06-02 00:47:18,387 INFO Computing video features for media_000106
+2026-06-02 00:48:41,936 INFO Processed 42248/57763 video windows
+2026-06-02 00:48:41,938 INFO Video features media 147/198: media_000107 (299 windows)
+2026-06-02 00:48:41,938 INFO Computing video features for media_000107
+2026-06-02 00:49:34,881 INFO Processed 42547/57763 video windows
+2026-06-02 00:49:34,883 INFO Video features media 148/198: media_000108 (299 windows)
+2026-06-02 00:49:34,884 INFO Computing video features for media_000108
+2026-06-02 00:50:28,000 INFO Processed 42846/57763 video windows
+2026-06-02 00:50:28,003 INFO Video features media 149/198: media_000109 (299 windows)
+2026-06-02 00:50:28,004 INFO Computing video features for media_000109
+2026-06-02 00:51:21,074 INFO Processed 43145/57763 video windows
+2026-06-02 00:51:21,075 INFO Video features media 150/198: media_000110 (299 windows)
+2026-06-02 00:51:21,076 INFO Computing video features for media_000110
+2026-06-02 00:52:14,555 INFO Processed 43444/57763 video windows
+2026-06-02 00:52:14,556 INFO Video features media 151/198: media_000111 (299 windows)
+2026-06-02 00:52:14,557 INFO Computing video features for media_000111
+2026-06-02 00:53:07,086 INFO Processed 43743/57763 video windows
+2026-06-02 00:53:07,087 INFO Video features media 152/198: media_000112 (299 windows)
+2026-06-02 00:53:07,088 INFO Computing video features for media_000112
+2026-06-02 00:53:58,473 INFO Processed 44042/57763 video windows
+2026-06-02 00:53:58,474 INFO Video features media 153/198: media_000113 (299 windows)
+2026-06-02 00:53:58,475 INFO Computing video features for media_000113
+2026-06-02 00:54:49,762 INFO Processed 44341/57763 video windows
+2026-06-02 00:54:49,762 INFO Video features media 154/198: media_000114 (299 windows)
+2026-06-02 00:54:49,763 INFO Computing video features for media_000114
+2026-06-02 00:55:41,096 INFO Processed 44640/57763 video windows
+2026-06-02 00:55:41,097 INFO Video features media 155/198: media_000115 (299 windows)
+2026-06-02 00:55:41,098 INFO Computing video features for media_000115
+2026-06-02 00:56:32,579 INFO Processed 44939/57763 video windows
+2026-06-02 00:56:32,581 INFO Video features media 156/198: media_000116 (299 windows)
+2026-06-02 00:56:32,581 INFO Computing video features for media_000116
+2026-06-02 00:57:23,972 INFO Processed 45238/57763 video windows
+2026-06-02 00:57:23,975 INFO Video features media 157/198: media_000117 (299 windows)
+2026-06-02 00:57:23,975 INFO Computing video features for media_000117
+2026-06-02 00:58:15,278 INFO Processed 45537/57763 video windows
+2026-06-02 00:58:15,279 INFO Video features media 158/198: media_000118 (299 windows)
+2026-06-02 00:58:15,279 INFO Computing video features for media_000118
+2026-06-02 00:59:06,793 INFO Processed 45836/57763 video windows
+2026-06-02 00:59:06,795 INFO Video features media 159/198: media_000119 (299 windows)
+2026-06-02 00:59:06,795 INFO Computing video features for media_000119
+2026-06-02 00:59:58,199 INFO Processed 46135/57763 video windows
+2026-06-02 00:59:58,201 INFO Video features media 160/198: media_000120 (299 windows)
+2026-06-02 00:59:58,201 INFO Computing video features for media_000120
+2026-06-02 01:00:49,577 INFO Processed 46434/57763 video windows
+2026-06-02 01:00:49,579 INFO Video features media 161/198: media_000121 (299 windows)
+2026-06-02 01:00:49,579 INFO Computing video features for media_000121
+2026-06-02 01:01:41,089 INFO Processed 46733/57763 video windows
+2026-06-02 01:01:41,091 INFO Video features media 162/198: media_000122 (299 windows)
+2026-06-02 01:01:41,092 INFO Computing video features for media_000122
+2026-06-02 01:02:32,335 INFO Processed 47032/57763 video windows
+2026-06-02 01:02:32,336 INFO Video features media 163/198: media_000123 (299 windows)
+2026-06-02 01:02:32,337 INFO Computing video features for media_000123
+2026-06-02 01:03:42,949 INFO Processed 47331/57763 video windows
+2026-06-02 01:03:42,951 INFO Video features media 164/198: media_000124 (299 windows)
+2026-06-02 01:03:42,951 INFO Computing video features for media_000124
+2026-06-02 01:05:12,752 INFO Processed 47630/57763 video windows
+2026-06-02 01:05:12,753 INFO Video features media 165/198: media_000125 (299 windows)
+2026-06-02 01:05:12,754 INFO Computing video features for media_000125
+2026-06-02 01:06:42,175 INFO Processed 47929/57763 video windows
+2026-06-02 01:06:42,176 INFO Video features media 166/198: media_000126 (299 windows)
+2026-06-02 01:06:42,178 INFO Computing video features for media_000126
+2026-06-02 01:08:11,692 INFO Processed 48228/57763 video windows
+2026-06-02 01:08:11,694 INFO Video features media 167/198: media_000127 (299 windows)
+2026-06-02 01:08:11,695 INFO Computing video features for media_000127
+2026-06-02 01:09:39,806 INFO Processed 48527/57763 video windows
+2026-06-02 01:09:39,808 INFO Video features media 168/198: media_000128 (299 windows)
+2026-06-02 01:09:39,809 INFO Computing video features for media_000128
+2026-06-02 01:11:09,073 INFO Processed 48826/57763 video windows
+2026-06-02 01:11:09,075 INFO Video features media 169/198: media_000129 (299 windows)
+2026-06-02 01:11:09,076 INFO Computing video features for media_000129
+2026-06-02 01:12:38,213 INFO Processed 49125/57763 video windows
+2026-06-02 01:12:38,215 INFO Video features media 170/198: media_000130 (299 windows)
+2026-06-02 01:12:38,215 INFO Computing video features for media_000130
+2026-06-02 01:14:07,704 INFO Processed 49424/57763 video windows
+2026-06-02 01:14:07,706 INFO Video features media 171/198: media_000131 (299 windows)
+2026-06-02 01:14:07,707 INFO Computing video features for media_000131
+2026-06-02 01:15:36,768 INFO Processed 49723/57763 video windows
+2026-06-02 01:15:36,769 INFO Video features media 172/198: media_000132 (299 windows)
+2026-06-02 01:15:36,770 INFO Computing video features for media_000132
+2026-06-02 01:17:05,719 INFO Processed 50022/57763 video windows
+2026-06-02 01:17:05,721 INFO Video features media 173/198: media_000133 (299 windows)
+2026-06-02 01:17:05,722 INFO Computing video features for media_000133
+2026-06-02 01:18:35,944 INFO Processed 50321/57763 video windows
+2026-06-02 01:18:35,945 INFO Video features media 174/198: media_000134 (299 windows)
+2026-06-02 01:18:35,946 INFO Computing video features for media_000134
+2026-06-02 01:20:07,104 INFO Processed 50620/57763 video windows
+2026-06-02 01:20:07,107 INFO Video features media 175/198: media_000135 (299 windows)
+2026-06-02 01:20:07,107 INFO Computing video features for media_000135
+2026-06-02 01:21:18,147 INFO Processed 50919/57763 video windows
+2026-06-02 01:21:18,150 INFO Video features media 176/198: media_000136 (299 windows)
+2026-06-02 01:21:18,150 INFO Computing video features for media_000136
+2026-06-02 01:22:09,930 INFO Processed 51218/57763 video windows
+2026-06-02 01:22:09,932 INFO Video features media 177/198: media_000137 (299 windows)
+2026-06-02 01:22:09,933 INFO Computing video features for media_000137
+2026-06-02 01:23:01,958 INFO Processed 51517/57763 video windows
+2026-06-02 01:23:01,959 INFO Video features media 178/198: media_000138 (299 windows)
+2026-06-02 01:23:01,960 INFO Computing video features for media_000138
+2026-06-02 01:23:53,645 INFO Processed 51816/57763 video windows
+2026-06-02 01:23:53,646 INFO Video features media 179/198: media_000139 (299 windows)
+2026-06-02 01:23:53,646 INFO Computing video features for media_000139
+2026-06-02 01:24:46,148 INFO Processed 52115/57763 video windows
+2026-06-02 01:24:46,150 INFO Video features media 180/198: media_000140 (299 windows)
+2026-06-02 01:24:46,151 INFO Computing video features for media_000140
+2026-06-02 01:25:38,059 INFO Processed 52414/57763 video windows
+2026-06-02 01:25:38,060 INFO Video features media 181/198: media_000141 (299 windows)
+2026-06-02 01:25:38,061 INFO Computing video features for media_000141
+2026-06-02 01:26:29,864 INFO Processed 52713/57763 video windows
+2026-06-02 01:26:29,866 INFO Video features media 182/198: media_000142 (299 windows)
+2026-06-02 01:26:29,866 INFO Computing video features for media_000142
+2026-06-02 01:27:21,934 INFO Processed 53012/57763 video windows
+2026-06-02 01:27:21,936 INFO Video features media 183/198: media_000143 (299 windows)
+2026-06-02 01:27:21,936 INFO Computing video features for media_000143
+2026-06-02 01:28:13,529 INFO Processed 53311/57763 video windows
+2026-06-02 01:28:13,531 INFO Video features media 184/198: media_000144 (299 windows)
+2026-06-02 01:28:13,531 INFO Computing video features for media_000144
+2026-06-02 01:29:05,626 INFO Processed 53610/57763 video windows
+2026-06-02 01:29:05,628 INFO Video features media 185/198: media_000145 (299 windows)
+2026-06-02 01:29:05,628 INFO Computing video features for media_000145
+2026-06-02 01:29:57,571 INFO Processed 53909/57763 video windows
+2026-06-02 01:29:57,573 INFO Video features media 186/198: media_000146 (299 windows)
+2026-06-02 01:29:57,574 INFO Computing video features for media_000146
+2026-06-02 01:30:49,517 INFO Processed 54208/57763 video windows
+2026-06-02 01:30:49,517 INFO Video features media 187/198: media_000147 (299 windows)
+2026-06-02 01:30:49,519 INFO Computing video features for media_000147
+2026-06-02 01:31:41,565 INFO Processed 54507/57763 video windows
+2026-06-02 01:31:41,567 INFO Video features media 188/198: media_000148 (299 windows)
+2026-06-02 01:31:41,567 INFO Computing video features for media_000148
+2026-06-02 01:32:33,544 INFO Processed 54806/57763 video windows
+2026-06-02 01:32:33,546 INFO Video features media 189/198: media_000149 (299 windows)
+2026-06-02 01:32:33,547 INFO Computing video features for media_000149
+2026-06-02 01:33:25,418 INFO Processed 55105/57763 video windows
+2026-06-02 01:33:25,420 INFO Video features media 190/198: media_000150 (299 windows)
+2026-06-02 01:33:25,420 INFO Computing video features for media_000150
+2026-06-02 01:34:17,270 INFO Processed 55404/57763 video windows
+2026-06-02 01:34:17,271 INFO Video features media 191/198: media_000151 (299 windows)
+2026-06-02 01:34:17,272 INFO Computing video features for media_000151
+2026-06-02 01:35:09,094 INFO Processed 55703/57763 video windows
+2026-06-02 01:35:09,095 INFO Video features media 192/198: media_000152 (299 windows)
+2026-06-02 01:35:09,096 INFO Computing video features for media_000152
+2026-06-02 01:36:30,706 INFO Processed 56002/57763 video windows
+2026-06-02 01:36:30,707 INFO Video features media 193/198: media_000153 (299 windows)
+2026-06-02 01:36:30,708 INFO Computing video features for media_000153
+2026-06-02 01:37:59,861 INFO Processed 56301/57763 video windows
+2026-06-02 01:37:59,863 INFO Video features media 194/198: media_000154 (299 windows)
+2026-06-02 01:37:59,864 INFO Computing video features for media_000154
+2026-06-02 01:39:29,385 INFO Processed 56600/57763 video windows
+2026-06-02 01:39:29,386 INFO Video features media 195/198: media_000155 (299 windows)
+2026-06-02 01:39:29,387 INFO Computing video features for media_000155
+2026-06-02 01:40:58,204 INFO Processed 56899/57763 video windows
+2026-06-02 01:40:58,206 INFO Video features media 196/198: media_000156 (299 windows)
+2026-06-02 01:40:58,207 INFO Computing video features for media_000156
+2026-06-02 01:42:26,553 INFO Processed 57198/57763 video windows
+2026-06-02 01:42:26,555 INFO Video features media 197/198: media_000157 (266 windows)
+2026-06-02 01:42:26,556 INFO Computing video features for media_000157
+2026-06-02 01:43:44,476 INFO Processed 57464/57763 video windows
+2026-06-02 01:43:44,477 INFO Video features media 198/198: media_000158 (299 windows)
+2026-06-02 01:43:44,478 INFO Computing video features for media_000158
+2026-06-02 01:45:14,700 INFO Processed 57763/57763 video windows
+2026-06-02 01:45:46,303 INFO Audio features media 1/198: media_000001 (1 windows)
+2026-06-02 01:45:46,306 INFO Computing audio features for media_000001
+2026-06-02 01:45:46,428 INFO Processed 1/57763 audio windows
+2026-06-02 01:45:46,428 INFO Audio features media 2/198: media_000002 (299 windows)
+2026-06-02 01:45:46,428 INFO Computing audio features for media_000002
+2026-06-02 01:45:49,884 INFO Processed 300/57763 audio windows
+2026-06-02 01:45:49,884 INFO Audio features media 3/198: media_000003 (299 windows)
+2026-06-02 01:45:49,885 INFO Computing audio features for media_000003
+2026-06-02 01:45:53,242 INFO Processed 599/57763 audio windows
+2026-06-02 01:45:53,244 INFO Audio features media 4/198: media_000004 (299 windows)
+2026-06-02 01:45:53,244 INFO Computing audio features for media_000004
+2026-06-02 01:45:56,510 INFO Processed 898/57763 audio windows
+2026-06-02 01:45:56,511 INFO Audio features media 5/198: media_000005 (299 windows)
+2026-06-02 01:45:56,511 INFO Computing audio features for media_000005
+2026-06-02 01:45:59,714 INFO Processed 1197/57763 audio windows
+2026-06-02 01:45:59,717 INFO Audio features media 6/198: media_000006 (299 windows)
+2026-06-02 01:45:59,717 INFO Computing audio features for media_000006
+2026-06-02 01:46:02,900 INFO Processed 1496/57763 audio windows
+2026-06-02 01:46:02,901 INFO Audio features media 7/198: media_000007 (299 windows)
+2026-06-02 01:46:02,902 INFO Computing audio features for media_000007
+2026-06-02 01:46:05,964 INFO Processed 1795/57763 audio windows
+2026-06-02 01:46:05,965 INFO Audio features media 8/198: media_000008 (299 windows)
+2026-06-02 01:46:05,966 INFO Computing audio features for media_000008
+2026-06-02 01:46:09,385 INFO Processed 2094/57763 audio windows
+2026-06-02 01:46:09,386 INFO Audio features media 9/198: media_000009 (299 windows)
+2026-06-02 01:46:09,386 INFO Computing audio features for media_000009
+2026-06-02 01:46:12,617 INFO Processed 2393/57763 audio windows
+2026-06-02 01:46:12,618 INFO Audio features media 10/198: media_000010 (299 windows)
+2026-06-02 01:46:12,619 INFO Computing audio features for media_000010
+2026-06-02 01:46:15,825 INFO Processed 2692/57763 audio windows
+2026-06-02 01:46:15,826 INFO Audio features media 11/198: media_000011 (299 windows)
+2026-06-02 01:46:15,827 INFO Computing audio features for media_000011
+2026-06-02 01:46:18,985 INFO Processed 2991/57763 audio windows
+2026-06-02 01:46:18,986 INFO Audio features media 12/198: media_000012 (299 windows)
+2026-06-02 01:46:18,987 INFO Computing audio features for media_000012
+2026-06-02 01:46:22,116 INFO Processed 3290/57763 audio windows
+2026-06-02 01:46:22,117 INFO Audio features media 13/198: media_000013 (299 windows)
+2026-06-02 01:46:22,118 INFO Computing audio features for media_000013
+2026-06-02 01:46:25,266 INFO Processed 3589/57763 audio windows
+2026-06-02 01:46:25,267 INFO Audio features media 14/198: media_000014 (299 windows)
+2026-06-02 01:46:25,268 INFO Computing audio features for media_000014
+2026-06-02 01:46:28,538 INFO Processed 3888/57763 audio windows
+2026-06-02 01:46:28,540 INFO Audio features media 15/198: media_000015 (299 windows)
+2026-06-02 01:46:28,540 INFO Computing audio features for media_000015
+2026-06-02 01:46:31,778 INFO Processed 4187/57763 audio windows
+2026-06-02 01:46:31,780 INFO Audio features media 16/198: media_000016 (299 windows)
+2026-06-02 01:46:31,780 INFO Computing audio features for media_000016
+2026-06-02 01:46:34,915 INFO Processed 4486/57763 audio windows
+2026-06-02 01:46:34,916 INFO Audio features media 17/198: media_000017 (299 windows)
+2026-06-02 01:46:34,917 INFO Computing audio features for media_000017
+2026-06-02 01:46:37,965 INFO Processed 4785/57763 audio windows
+2026-06-02 01:46:37,966 INFO Audio features media 18/198: media_000018 (299 windows)
+2026-06-02 01:46:37,967 INFO Computing audio features for media_000018
+2026-06-02 01:46:41,043 INFO Processed 5084/57763 audio windows
+2026-06-02 01:46:41,045 INFO Audio features media 19/198: media_000019 (299 windows)
+2026-06-02 01:46:41,045 INFO Computing audio features for media_000019
+2026-06-02 01:46:43,983 INFO Processed 5383/57763 audio windows
+2026-06-02 01:46:43,983 INFO Audio features media 20/198: media_000020 (299 windows)
+2026-06-02 01:46:43,985 INFO Computing audio features for media_000020
+2026-06-02 01:46:46,880 INFO Processed 5682/57763 audio windows
+2026-06-02 01:46:46,881 INFO Audio features media 21/198: media_000021 (299 windows)
+2026-06-02 01:46:46,882 INFO Computing audio features for media_000021
+2026-06-02 01:46:49,885 INFO Processed 5981/57763 audio windows
+2026-06-02 01:46:49,887 INFO Audio features media 22/198: media_000022 (299 windows)
+2026-06-02 01:46:49,887 INFO Computing audio features for media_000022
+2026-06-02 01:46:52,927 INFO Processed 6280/57763 audio windows
+2026-06-02 01:46:52,928 INFO Audio features media 23/198: media_000023 (299 windows)
+2026-06-02 01:46:52,929 INFO Computing audio features for media_000023
+2026-06-02 01:46:55,977 INFO Processed 6579/57763 audio windows
+2026-06-02 01:46:55,979 INFO Audio features media 24/198: media_000024 (299 windows)
+2026-06-02 01:46:55,979 INFO Computing audio features for media_000024
+2026-06-02 01:46:59,048 INFO Processed 6878/57763 audio windows
+2026-06-02 01:46:59,050 INFO Audio features media 25/198: media_000025 (299 windows)
+2026-06-02 01:46:59,050 INFO Computing audio features for media_000025
+2026-06-02 01:47:02,097 INFO Processed 7177/57763 audio windows
+2026-06-02 01:47:02,098 INFO Audio features media 26/198: media_000026 (299 windows)
+2026-06-02 01:47:02,100 INFO Computing audio features for media_000026
+2026-06-02 01:47:05,109 INFO Processed 7476/57763 audio windows
+2026-06-02 01:47:05,110 INFO Audio features media 27/198: media_000027 (299 windows)
+2026-06-02 01:47:05,112 INFO Computing audio features for media_000027
+2026-06-02 01:47:08,311 INFO Processed 7775/57763 audio windows
+2026-06-02 01:47:08,313 INFO Audio features media 28/198: media_000028 (299 windows)
+2026-06-02 01:47:08,313 INFO Computing audio features for media_000028
+2026-06-02 01:47:11,273 INFO Processed 8074/57763 audio windows
+2026-06-02 01:47:11,275 INFO Audio features media 29/198: media_000029 (299 windows)
+2026-06-02 01:47:11,275 INFO Computing audio features for media_000029
+2026-06-02 01:47:14,256 INFO Processed 8373/57763 audio windows
+2026-06-02 01:47:14,257 INFO Audio features media 30/198: media_000030 (299 windows)
+2026-06-02 01:47:14,258 INFO Computing audio features for media_000030
+2026-06-02 01:47:17,223 INFO Processed 8672/57763 audio windows
+2026-06-02 01:47:17,224 INFO Audio features media 31/198: media_000031 (299 windows)
+2026-06-02 01:47:17,224 INFO Computing audio features for media_000031
+2026-06-02 01:47:20,325 INFO Processed 8971/57763 audio windows
+2026-06-02 01:47:20,326 INFO Audio features media 32/198: media_000032 (299 windows)
+2026-06-02 01:47:20,327 INFO Computing audio features for media_000032
+2026-06-02 01:47:23,304 INFO Processed 9270/57763 audio windows
+2026-06-02 01:47:23,304 INFO Audio features media 33/198: media_000033 (299 windows)
+2026-06-02 01:47:23,307 INFO Computing audio features for media_000033
+2026-06-02 01:47:26,327 INFO Processed 9569/57763 audio windows
+2026-06-02 01:47:26,328 INFO Audio features media 34/198: media_000034 (299 windows)
+2026-06-02 01:47:26,328 INFO Computing audio features for media_000034
+2026-06-02 01:47:29,395 INFO Processed 9868/57763 audio windows
+2026-06-02 01:47:29,396 INFO Audio features media 35/198: media_000035 (299 windows)
+2026-06-02 01:47:29,397 INFO Computing audio features for media_000035
+2026-06-02 01:47:32,482 INFO Processed 10167/57763 audio windows
+2026-06-02 01:47:32,483 INFO Audio features media 36/198: media_000036 (299 windows)
+2026-06-02 01:47:32,484 INFO Computing audio features for media_000036
+2026-06-02 01:47:35,711 INFO Processed 10466/57763 audio windows
+2026-06-02 01:47:35,713 INFO Audio features media 37/198: media_000037 (299 windows)
+2026-06-02 01:47:35,713 INFO Computing audio features for media_000037
+2026-06-02 01:47:39,015 INFO Processed 10765/57763 audio windows
+2026-06-02 01:47:39,017 INFO Audio features media 38/198: media_000038 (299 windows)
+2026-06-02 01:47:39,018 INFO Computing audio features for media_000038
+2026-06-02 01:47:42,169 INFO Processed 11064/57763 audio windows
+2026-06-02 01:47:42,171 INFO Audio features media 39/198: media_000039 (299 windows)
+2026-06-02 01:47:42,171 INFO Computing audio features for media_000039
+2026-06-02 01:47:45,385 INFO Processed 11363/57763 audio windows
+2026-06-02 01:47:45,386 INFO Audio features media 40/198: media_000040 (299 windows)
+2026-06-02 01:47:45,387 INFO Computing audio features for media_000040
+2026-06-02 01:47:48,580 INFO Processed 11662/57763 audio windows
+2026-06-02 01:47:48,581 INFO Audio features media 41/198: media_000041 (299 windows)
+2026-06-02 01:47:48,581 INFO Computing audio features for media_000041
+2026-06-02 01:47:51,746 INFO Processed 11961/57763 audio windows
+2026-06-02 01:47:51,748 INFO Audio features media 42/198: media_000042 (299 windows)
+2026-06-02 01:47:51,749 INFO Computing audio features for media_000042
+2026-06-02 01:47:54,957 INFO Processed 12260/57763 audio windows
+2026-06-02 01:47:54,959 INFO Audio features media 43/198: media_000043 (299 windows)
+2026-06-02 01:47:54,959 INFO Computing audio features for media_000043
+2026-06-02 01:47:58,231 INFO Processed 12559/57763 audio windows
+2026-06-02 01:47:58,233 INFO Audio features media 44/198: media_000044 (168 windows)
+2026-06-02 01:47:58,233 INFO Computing audio features for media_000044
+2026-06-02 01:48:00,139 INFO Processed 12727/57763 audio windows
+2026-06-02 01:48:00,140 INFO Audio features media 45/198: media_000045 (299 windows)
+2026-06-02 01:48:00,141 INFO Computing audio features for media_000045
+2026-06-02 01:48:03,568 INFO Processed 13026/57763 audio windows
+2026-06-02 01:48:03,569 INFO Audio features media 46/198: media_000046 (299 windows)
+2026-06-02 01:48:03,569 INFO Computing audio features for media_000046
+2026-06-02 01:48:06,948 INFO Processed 13325/57763 audio windows
+2026-06-02 01:48:06,949 INFO Audio features media 47/198: media_000047 (299 windows)
+2026-06-02 01:48:06,949 INFO Computing audio features for media_000047
+2026-06-02 01:48:10,310 INFO Processed 13624/57763 audio windows
+2026-06-02 01:48:10,311 INFO Audio features media 48/198: media_000048 (299 windows)
+2026-06-02 01:48:10,312 INFO Computing audio features for media_000048
+2026-06-02 01:48:13,494 INFO Processed 13923/57763 audio windows
+2026-06-02 01:48:13,495 INFO Audio features media 49/198: media_000049 (299 windows)
+2026-06-02 01:48:13,495 INFO Computing audio features for media_000049
+2026-06-02 01:48:16,691 INFO Processed 14222/57763 audio windows
+2026-06-02 01:48:16,692 INFO Audio features media 50/198: media_000050 (299 windows)
+2026-06-02 01:48:16,692 INFO Computing audio features for media_000050
+2026-06-02 01:48:19,903 INFO Processed 14521/57763 audio windows
+2026-06-02 01:48:19,904 INFO Audio features media 51/198: media_000051 (299 windows)
+2026-06-02 01:48:19,904 INFO Computing audio features for media_000051
+2026-06-02 01:48:23,152 INFO Processed 14820/57763 audio windows
+2026-06-02 01:48:23,153 INFO Audio features media 52/198: media_000052 (299 windows)
+2026-06-02 01:48:23,154 INFO Computing audio features for media_000052
+2026-06-02 01:48:26,393 INFO Processed 15119/57763 audio windows
+2026-06-02 01:48:26,394 INFO Audio features media 53/198: media_000053 (299 windows)
+2026-06-02 01:48:26,394 INFO Computing audio features for media_000053
+2026-06-02 01:48:29,596 INFO Processed 15418/57763 audio windows
+2026-06-02 01:48:29,596 INFO Audio features media 54/198: media_000054 (299 windows)
+2026-06-02 01:48:29,598 INFO Computing audio features for media_000054
+2026-06-02 01:48:32,866 INFO Processed 15717/57763 audio windows
+2026-06-02 01:48:32,868 INFO Audio features media 55/198: media_000055 (299 windows)
+2026-06-02 01:48:32,868 INFO Computing audio features for media_000055
+2026-06-02 01:48:36,144 INFO Processed 16016/57763 audio windows
+2026-06-02 01:48:36,145 INFO Audio features media 56/198: media_000056 (299 windows)
+2026-06-02 01:48:36,146 INFO Computing audio features for media_000056
+2026-06-02 01:48:39,388 INFO Processed 16315/57763 audio windows
+2026-06-02 01:48:39,390 INFO Audio features media 57/198: media_000057 (299 windows)
+2026-06-02 01:48:39,390 INFO Computing audio features for media_000057
+2026-06-02 01:48:42,611 INFO Processed 16614/57763 audio windows
+2026-06-02 01:48:42,612 INFO Audio features media 58/198: media_000058 (299 windows)
+2026-06-02 01:48:42,613 INFO Computing audio features for media_000058
+2026-06-02 01:48:45,780 INFO Processed 16913/57763 audio windows
+2026-06-02 01:48:45,782 INFO Audio features media 59/198: media_000059 (299 windows)
+2026-06-02 01:48:45,782 INFO Computing audio features for media_000059
+2026-06-02 01:48:48,906 INFO Processed 17212/57763 audio windows
+2026-06-02 01:48:48,906 INFO Audio features media 60/198: media_000060 (299 windows)
+2026-06-02 01:48:48,908 INFO Computing audio features for media_000060
+2026-06-02 01:48:52,133 INFO Processed 17511/57763 audio windows
+2026-06-02 01:48:52,135 INFO Audio features media 61/198: media_000061 (299 windows)
+2026-06-02 01:48:52,135 INFO Computing audio features for media_000061
+2026-06-02 01:48:55,291 INFO Processed 17810/57763 audio windows
+2026-06-02 01:48:55,292 INFO Audio features media 62/198: media_000062 (299 windows)
+2026-06-02 01:48:55,293 INFO Computing audio features for media_000062
+2026-06-02 01:48:58,665 INFO Processed 18109/57763 audio windows
+2026-06-02 01:48:58,665 INFO Audio features media 63/198: media_000063 (299 windows)
+2026-06-02 01:48:58,666 INFO Computing audio features for media_000063
+2026-06-02 01:49:02,092 INFO Processed 18408/57763 audio windows
+2026-06-02 01:49:02,094 INFO Audio features media 64/198: media_000064 (299 windows)
+2026-06-02 01:49:02,094 INFO Computing audio features for media_000064
+2026-06-02 01:49:05,408 INFO Processed 18707/57763 audio windows
+2026-06-02 01:49:05,409 INFO Audio features media 65/198: media_000065 (299 windows)
+2026-06-02 01:49:05,409 INFO Computing audio features for media_000065
+2026-06-02 01:49:08,845 INFO Processed 19006/57763 audio windows
+2026-06-02 01:49:08,845 INFO Audio features media 66/198: media_000066 (299 windows)
+2026-06-02 01:49:08,846 INFO Computing audio features for media_000066
+2026-06-02 01:49:12,287 INFO Processed 19305/57763 audio windows
+2026-06-02 01:49:12,288 INFO Audio features media 67/198: media_000067 (299 windows)
+2026-06-02 01:49:12,288 INFO Computing audio features for media_000067
+2026-06-02 01:49:15,537 INFO Processed 19604/57763 audio windows
+2026-06-02 01:49:15,538 INFO Audio features media 68/198: media_000068 (299 windows)
+2026-06-02 01:49:15,539 INFO Computing audio features for media_000068
+2026-06-02 01:49:18,849 INFO Processed 19903/57763 audio windows
+2026-06-02 01:49:18,850 INFO Audio features media 69/198: media_000069 (299 windows)
+2026-06-02 01:49:18,850 INFO Computing audio features for media_000069
+2026-06-02 01:49:22,330 INFO Processed 20202/57763 audio windows
+2026-06-02 01:49:22,331 INFO Audio features media 70/198: media_000070 (299 windows)
+2026-06-02 01:49:22,331 INFO Computing audio features for media_000070
+2026-06-02 01:49:25,704 INFO Processed 20501/57763 audio windows
+2026-06-02 01:49:25,706 INFO Audio features media 71/198: media_000071 (299 windows)
+2026-06-02 01:49:25,706 INFO Computing audio features for media_000071
+2026-06-02 01:49:29,009 INFO Processed 20800/57763 audio windows
+2026-06-02 01:49:29,010 INFO Audio features media 72/198: media_000072 (299 windows)
+2026-06-02 01:49:29,011 INFO Computing audio features for media_000072
+2026-06-02 01:49:32,455 INFO Processed 21099/57763 audio windows
+2026-06-02 01:49:32,456 INFO Audio features media 73/198: media_000073 (299 windows)
+2026-06-02 01:49:32,457 INFO Computing audio features for media_000073
+2026-06-02 01:49:35,672 INFO Processed 21398/57763 audio windows
+2026-06-02 01:49:35,673 INFO Audio features media 74/198: media_000074 (299 windows)
+2026-06-02 01:49:35,674 INFO Computing audio features for media_000074
+2026-06-02 01:49:39,024 INFO Processed 21697/57763 audio windows
+2026-06-02 01:49:39,025 INFO Audio features media 75/198: media_000075 (299 windows)
+2026-06-02 01:49:39,026 INFO Computing audio features for media_000075
+2026-06-02 01:49:42,461 INFO Processed 21996/57763 audio windows
+2026-06-02 01:49:42,462 INFO Audio features media 76/198: media_000076 (299 windows)
+2026-06-02 01:49:42,462 INFO Computing audio features for media_000076
+2026-06-02 01:49:45,947 INFO Processed 22295/57763 audio windows
+2026-06-02 01:49:45,948 INFO Audio features media 77/198: media_000077 (299 windows)
+2026-06-02 01:49:45,948 INFO Computing audio features for media_000077
+2026-06-02 01:49:49,340 INFO Processed 22594/57763 audio windows
+2026-06-02 01:49:49,342 INFO Audio features media 78/198: media_000078 (299 windows)
+2026-06-02 01:49:49,343 INFO Computing audio features for media_000078
+2026-06-02 01:49:52,682 INFO Processed 22893/57763 audio windows
+2026-06-02 01:49:52,683 INFO Audio features media 79/198: media_000079 (299 windows)
+2026-06-02 01:49:52,684 INFO Computing audio features for media_000079
+2026-06-02 01:49:56,015 INFO Processed 23192/57763 audio windows
+2026-06-02 01:49:56,016 INFO Audio features media 80/198: media_000080 (299 windows)
+2026-06-02 01:49:56,016 INFO Computing audio features for media_000080
+2026-06-02 01:49:59,430 INFO Processed 23491/57763 audio windows
+2026-06-02 01:49:59,430 INFO Audio features media 81/198: media_000081 (299 windows)
+2026-06-02 01:49:59,431 INFO Computing audio features for media_000081
+2026-06-02 01:50:02,758 INFO Processed 23790/57763 audio windows
+2026-06-02 01:50:02,759 INFO Audio features media 82/198: media_000082 (299 windows)
+2026-06-02 01:50:02,760 INFO Computing audio features for media_000082
+2026-06-02 01:50:06,150 INFO Processed 24089/57763 audio windows
+2026-06-02 01:50:06,150 INFO Audio features media 83/198: media_000083 (299 windows)
+2026-06-02 01:50:06,151 INFO Computing audio features for media_000083
+2026-06-02 01:50:09,731 INFO Processed 24388/57763 audio windows
+2026-06-02 01:50:09,731 INFO Audio features media 84/198: media_000084 (299 windows)
+2026-06-02 01:50:09,732 INFO Computing audio features for media_000084
+2026-06-02 01:50:13,089 INFO Processed 24687/57763 audio windows
+2026-06-02 01:50:13,090 INFO Audio features media 85/198: media_000085 (299 windows)
+2026-06-02 01:50:13,090 INFO Computing audio features for media_000085
+2026-06-02 01:50:16,300 INFO Processed 24986/57763 audio windows
+2026-06-02 01:50:16,300 INFO Audio features media 86/198: media_000086 (299 windows)
+2026-06-02 01:50:16,300 INFO Computing audio features for media_000086
+2026-06-02 01:50:19,538 INFO Processed 25285/57763 audio windows
+2026-06-02 01:50:19,539 INFO Audio features media 87/198: media_000087 (299 windows)
+2026-06-02 01:50:19,539 INFO Computing audio features for media_000087
+2026-06-02 01:50:22,855 INFO Processed 25584/57763 audio windows
+2026-06-02 01:50:22,856 INFO Audio features media 88/198: media_000088 (299 windows)
+2026-06-02 01:50:22,856 INFO Computing audio features for media_000088
+2026-06-02 01:50:26,104 INFO Processed 25883/57763 audio windows
+2026-06-02 01:50:26,105 INFO Audio features media 89/198: media_000089 (299 windows)
+2026-06-02 01:50:26,105 INFO Computing audio features for media_000089
+2026-06-02 01:50:29,650 INFO Processed 26182/57763 audio windows
+2026-06-02 01:50:29,651 INFO Audio features media 90/198: media_000090 (299 windows)
+2026-06-02 01:50:29,652 INFO Computing audio features for media_000090
+2026-06-02 01:50:33,129 INFO Processed 26481/57763 audio windows
+2026-06-02 01:50:33,130 INFO Audio features media 91/198: media_000091 (299 windows)
+2026-06-02 01:50:33,131 INFO Computing audio features for media_000091
+2026-06-02 01:50:37,392 INFO Processed 26780/57763 audio windows
+2026-06-02 01:50:37,393 INFO Audio features media 92/198: media_000092 (299 windows)
+2026-06-02 01:50:37,395 INFO Computing audio features for media_000092
+2026-06-02 01:50:41,282 INFO Processed 27079/57763 audio windows
+2026-06-02 01:50:41,283 INFO Audio features media 93/198: media_000093 (299 windows)
+2026-06-02 01:50:41,283 INFO Computing audio features for media_000093
+2026-06-02 01:50:45,039 INFO Processed 27378/57763 audio windows
+2026-06-02 01:50:45,040 INFO Audio features media 94/198: media_000094 (299 windows)
+2026-06-02 01:50:45,040 INFO Computing audio features for media_000094
+2026-06-02 01:50:48,474 INFO Processed 27677/57763 audio windows
+2026-06-02 01:50:48,475 INFO Audio features media 95/198: media_000095 (299 windows)
+2026-06-02 01:50:48,476 INFO Computing audio features for media_000095
+2026-06-02 01:50:51,977 INFO Processed 27976/57763 audio windows
+2026-06-02 01:50:51,978 INFO Audio features media 96/198: media_000096 (299 windows)
+2026-06-02 01:50:51,978 INFO Computing audio features for media_000096
+2026-06-02 01:50:55,493 INFO Processed 28275/57763 audio windows
+2026-06-02 01:50:55,494 INFO Audio features media 97/198: media_000097 (299 windows)
+2026-06-02 01:50:55,494 INFO Computing audio features for media_000097
+2026-06-02 01:50:58,913 INFO Processed 28574/57763 audio windows
+2026-06-02 01:50:58,914 INFO Audio features media 98/198: media_000098 (299 windows)
+2026-06-02 01:50:58,914 INFO Computing audio features for media_000098
+2026-06-02 01:51:02,393 INFO Processed 28873/57763 audio windows
+2026-06-02 01:51:02,394 INFO Audio features media 99/198: media_000099 (23 windows)
+2026-06-02 01:51:02,394 INFO Computing audio features for media_000099
+2026-06-02 01:51:02,887 INFO Processed 28896/57763 audio windows
+2026-06-02 01:51:02,888 INFO Audio features media 100/198: media_000100 (113 windows)
+2026-06-02 01:51:02,888 INFO Computing audio features for media_000100
+2026-06-02 01:51:07,140 INFO Processed 29009/57763 audio windows
+2026-06-02 01:51:07,141 INFO Audio features media 101/198: media_000101 (100 windows)
+2026-06-02 01:51:07,142 INFO Computing audio features for media_000101
+2026-06-02 01:51:11,436 INFO Processed 29109/57763 audio windows
+2026-06-02 01:51:11,437 INFO Audio features media 102/198: media_000102 (100 windows)
+2026-06-02 01:51:11,438 INFO Computing audio features for media_000102
+2026-06-02 01:51:15,801 INFO Processed 29209/57763 audio windows
+2026-06-02 01:51:15,803 INFO Audio features media 103/198: media_000103 (299 windows)
+2026-06-02 01:51:15,803 INFO Computing audio features for media_000103
+2026-06-02 01:51:19,468 INFO Processed 29508/57763 audio windows
+2026-06-02 01:51:19,469 INFO Audio features media 104/198: media_000159 (299 windows)
+2026-06-02 01:51:19,470 INFO Computing audio features for media_000159
+2026-06-02 01:51:23,167 INFO Processed 29807/57763 audio windows
+2026-06-02 01:51:23,168 INFO Audio features media 105/198: media_000160 (299 windows)
+2026-06-02 01:51:23,168 INFO Computing audio features for media_000160
+2026-06-02 01:51:26,513 INFO Processed 30106/57763 audio windows
+2026-06-02 01:51:26,514 INFO Audio features media 106/198: media_000161 (299 windows)
+2026-06-02 01:51:26,514 INFO Computing audio features for media_000161
+2026-06-02 01:51:29,868 INFO Processed 30405/57763 audio windows
+2026-06-02 01:51:29,869 INFO Audio features media 107/198: media_000162 (299 windows)
+2026-06-02 01:51:29,869 INFO Computing audio features for media_000162
+2026-06-02 01:51:33,195 INFO Processed 30704/57763 audio windows
+2026-06-02 01:51:33,196 INFO Audio features media 108/198: media_000163 (299 windows)
+2026-06-02 01:51:33,196 INFO Computing audio features for media_000163
+2026-06-02 01:51:36,556 INFO Processed 31003/57763 audio windows
+2026-06-02 01:51:36,557 INFO Audio features media 109/198: media_000164 (299 windows)
+2026-06-02 01:51:36,557 INFO Computing audio features for media_000164
+2026-06-02 01:51:39,813 INFO Processed 31302/57763 audio windows
+2026-06-02 01:51:39,814 INFO Audio features media 110/198: media_000165 (299 windows)
+2026-06-02 01:51:39,815 INFO Computing audio features for media_000165
+2026-06-02 01:51:43,088 INFO Processed 31601/57763 audio windows
+2026-06-02 01:51:43,089 INFO Audio features media 111/198: media_000166 (299 windows)
+2026-06-02 01:51:43,089 INFO Computing audio features for media_000166
+2026-06-02 01:51:46,516 INFO Processed 31900/57763 audio windows
+2026-06-02 01:51:46,518 INFO Audio features media 112/198: media_000167 (299 windows)
+2026-06-02 01:51:46,519 INFO Computing audio features for media_000167
+2026-06-02 01:51:50,034 INFO Processed 32199/57763 audio windows
+2026-06-02 01:51:50,034 INFO Audio features media 113/198: media_000168 (299 windows)
+2026-06-02 01:51:50,036 INFO Computing audio features for media_000168
+2026-06-02 01:51:53,650 INFO Processed 32498/57763 audio windows
+2026-06-02 01:51:53,651 INFO Audio features media 114/198: media_000169 (299 windows)
+2026-06-02 01:51:53,651 INFO Computing audio features for media_000169
+2026-06-02 01:51:57,230 INFO Processed 32797/57763 audio windows
+2026-06-02 01:51:57,231 INFO Audio features media 115/198: media_000170 (299 windows)
+2026-06-02 01:51:57,232 INFO Computing audio features for media_000170
+2026-06-02 01:52:00,671 INFO Processed 33096/57763 audio windows
+2026-06-02 01:52:00,671 INFO Audio features media 116/198: media_000171 (299 windows)
+2026-06-02 01:52:00,673 INFO Computing audio features for media_000171
+2026-06-02 01:52:04,018 INFO Processed 33395/57763 audio windows
+2026-06-02 01:52:04,019 INFO Audio features media 117/198: media_000172 (299 windows)
+2026-06-02 01:52:04,019 INFO Computing audio features for media_000172
+2026-06-02 01:52:07,398 INFO Processed 33694/57763 audio windows
+2026-06-02 01:52:07,401 INFO Audio features media 118/198: media_000173 (299 windows)
+2026-06-02 01:52:07,401 INFO Computing audio features for media_000173
+2026-06-02 01:52:10,658 INFO Processed 33993/57763 audio windows
+2026-06-02 01:52:10,659 INFO Audio features media 119/198: media_000174 (299 windows)
+2026-06-02 01:52:10,660 INFO Computing audio features for media_000174
+2026-06-02 01:52:14,188 INFO Processed 34292/57763 audio windows
+2026-06-02 01:52:14,189 INFO Audio features media 120/198: media_000175 (299 windows)
+2026-06-02 01:52:14,189 INFO Computing audio features for media_000175
+2026-06-02 01:52:17,707 INFO Processed 34591/57763 audio windows
+2026-06-02 01:52:17,710 INFO Audio features media 121/198: media_000176 (299 windows)
+2026-06-02 01:52:17,711 INFO Computing audio features for media_000176
+2026-06-02 01:52:21,185 INFO Processed 34890/57763 audio windows
+2026-06-02 01:52:21,186 INFO Audio features media 122/198: media_000177 (299 windows)
+2026-06-02 01:52:21,187 INFO Computing audio features for media_000177
+2026-06-02 01:52:24,576 INFO Processed 35189/57763 audio windows
+2026-06-02 01:52:24,577 INFO Audio features media 123/198: media_000178 (299 windows)
+2026-06-02 01:52:24,578 INFO Computing audio features for media_000178
+2026-06-02 01:52:28,128 INFO Processed 35488/57763 audio windows
+2026-06-02 01:52:28,129 INFO Audio features media 124/198: media_000179 (299 windows)
+2026-06-02 01:52:28,129 INFO Computing audio features for media_000179
+2026-06-02 01:52:31,761 INFO Processed 35787/57763 audio windows
+2026-06-02 01:52:31,762 INFO Audio features media 125/198: media_000180 (299 windows)
+2026-06-02 01:52:31,762 INFO Computing audio features for media_000180
+2026-06-02 01:52:35,419 INFO Processed 36086/57763 audio windows
+2026-06-02 01:52:35,420 INFO Audio features media 126/198: media_000181 (299 windows)
+2026-06-02 01:52:35,421 INFO Computing audio features for media_000181
+2026-06-02 01:52:38,832 INFO Processed 36385/57763 audio windows
+2026-06-02 01:52:38,833 INFO Audio features media 127/198: media_000182 (299 windows)
+2026-06-02 01:52:38,834 INFO Computing audio features for media_000182
+2026-06-02 01:52:42,286 INFO Processed 36684/57763 audio windows
+2026-06-02 01:52:42,287 INFO Audio features media 128/198: media_000183 (299 windows)
+2026-06-02 01:52:42,287 INFO Computing audio features for media_000183
+2026-06-02 01:52:45,741 INFO Processed 36983/57763 audio windows
+2026-06-02 01:52:45,743 INFO Audio features media 129/198: media_000184 (299 windows)
+2026-06-02 01:52:45,743 INFO Computing audio features for media_000184
+2026-06-02 01:52:48,878 INFO Processed 37282/57763 audio windows
+2026-06-02 01:52:48,879 INFO Audio features media 130/198: media_000185 (299 windows)
+2026-06-02 01:52:48,879 INFO Computing audio features for media_000185
+2026-06-02 01:52:52,070 INFO Processed 37581/57763 audio windows
+2026-06-02 01:52:52,071 INFO Audio features media 131/198: media_000186 (299 windows)
+2026-06-02 01:52:52,071 INFO Computing audio features for media_000186
+2026-06-02 01:52:55,233 INFO Processed 37880/57763 audio windows
+2026-06-02 01:52:55,234 INFO Audio features media 132/198: media_000187 (299 windows)
+2026-06-02 01:52:55,235 INFO Computing audio features for media_000187
+2026-06-02 01:52:58,402 INFO Processed 38179/57763 audio windows
+2026-06-02 01:52:58,402 INFO Audio features media 133/198: media_000188 (299 windows)
+2026-06-02 01:52:58,404 INFO Computing audio features for media_000188
+2026-06-02 01:53:01,582 INFO Processed 38478/57763 audio windows
+2026-06-02 01:53:01,584 INFO Audio features media 134/198: media_000189 (299 windows)
+2026-06-02 01:53:01,584 INFO Computing audio features for media_000189
+2026-06-02 01:53:04,963 INFO Processed 38777/57763 audio windows
+2026-06-02 01:53:04,964 INFO Audio features media 135/198: media_000190 (299 windows)
+2026-06-02 01:53:04,965 INFO Computing audio features for media_000190
+2026-06-02 01:53:08,367 INFO Processed 39076/57763 audio windows
+2026-06-02 01:53:08,368 INFO Audio features media 136/198: media_000191 (299 windows)
+2026-06-02 01:53:08,369 INFO Computing audio features for media_000191
+2026-06-02 01:53:11,971 INFO Processed 39375/57763 audio windows
+2026-06-02 01:53:11,972 INFO Audio features media 137/198: media_000192 (299 windows)
+2026-06-02 01:53:11,973 INFO Computing audio features for media_000192
+2026-06-02 01:53:15,478 INFO Processed 39674/57763 audio windows
+2026-06-02 01:53:15,479 INFO Audio features media 138/198: media_000193 (299 windows)
+2026-06-02 01:53:15,479 INFO Computing audio features for media_000193
+2026-06-02 01:53:19,079 INFO Processed 39973/57763 audio windows
+2026-06-02 01:53:19,084 INFO Audio features media 139/198: media_000194 (299 windows)
+2026-06-02 01:53:19,085 INFO Computing audio features for media_000194
+2026-06-02 01:53:22,481 INFO Processed 40272/57763 audio windows
+2026-06-02 01:53:22,482 INFO Audio features media 140/198: media_000195 (299 windows)
+2026-06-02 01:53:22,482 INFO Computing audio features for media_000195
+2026-06-02 01:53:25,782 INFO Processed 40571/57763 audio windows
+2026-06-02 01:53:25,783 INFO Audio features media 141/198: media_000196 (299 windows)
+2026-06-02 01:53:25,783 INFO Computing audio features for media_000196
+2026-06-02 01:53:29,183 INFO Processed 40870/57763 audio windows
+2026-06-02 01:53:29,185 INFO Audio features media 142/198: media_000197 (299 windows)
+2026-06-02 01:53:29,185 INFO Computing audio features for media_000197
+2026-06-02 01:53:32,656 INFO Processed 41169/57763 audio windows
+2026-06-02 01:53:32,657 INFO Audio features media 143/198: media_000198 (182 windows)
+2026-06-02 01:53:32,658 INFO Computing audio features for media_000198
+2026-06-02 01:53:34,773 INFO Processed 41351/57763 audio windows
+2026-06-02 01:53:34,775 INFO Audio features media 144/198: media_000104 (299 windows)
+2026-06-02 01:53:34,776 INFO Computing audio features for media_000104
+2026-06-02 01:53:38,700 INFO Processed 41650/57763 audio windows
+2026-06-02 01:53:38,702 INFO Audio features media 145/198: media_000105 (299 windows)
+2026-06-02 01:53:38,702 INFO Computing audio features for media_000105
+2026-06-02 01:53:42,493 INFO Processed 41949/57763 audio windows
+2026-06-02 01:53:42,494 INFO Audio features media 146/198: media_000106 (299 windows)
+2026-06-02 01:53:42,495 INFO Computing audio features for media_000106
+2026-06-02 01:53:46,215 INFO Processed 42248/57763 audio windows
+2026-06-02 01:53:46,217 INFO Audio features media 147/198: media_000107 (299 windows)
+2026-06-02 01:53:46,217 INFO Computing audio features for media_000107
+2026-06-02 01:53:49,717 INFO Processed 42547/57763 audio windows
+2026-06-02 01:53:49,717 INFO Audio features media 148/198: media_000108 (299 windows)
+2026-06-02 01:53:49,718 INFO Computing audio features for media_000108
+2026-06-02 01:53:52,994 INFO Processed 42846/57763 audio windows
+2026-06-02 01:53:52,995 INFO Audio features media 149/198: media_000109 (299 windows)
+2026-06-02 01:53:52,995 INFO Computing audio features for media_000109
+2026-06-02 01:53:56,231 INFO Processed 43145/57763 audio windows
+2026-06-02 01:53:56,232 INFO Audio features media 150/198: media_000110 (299 windows)
+2026-06-02 01:53:56,232 INFO Computing audio features for media_000110
+2026-06-02 01:53:59,376 INFO Processed 43444/57763 audio windows
+2026-06-02 01:53:59,378 INFO Audio features media 151/198: media_000111 (299 windows)
+2026-06-02 01:53:59,379 INFO Computing audio features for media_000111
+2026-06-02 01:54:02,586 INFO Processed 43743/57763 audio windows
+2026-06-02 01:54:02,587 INFO Audio features media 152/198: media_000112 (299 windows)
+2026-06-02 01:54:02,587 INFO Computing audio features for media_000112
+2026-06-02 01:54:06,062 INFO Processed 44042/57763 audio windows
+2026-06-02 01:54:06,064 INFO Audio features media 153/198: media_000113 (299 windows)
+2026-06-02 01:54:06,064 INFO Computing audio features for media_000113
+2026-06-02 01:54:09,584 INFO Processed 44341/57763 audio windows
+2026-06-02 01:54:09,584 INFO Audio features media 154/198: media_000114 (299 windows)
+2026-06-02 01:54:09,586 INFO Computing audio features for media_000114
+2026-06-02 01:54:13,061 INFO Processed 44640/57763 audio windows
+2026-06-02 01:54:13,063 INFO Audio features media 155/198: media_000115 (299 windows)
+2026-06-02 01:54:13,063 INFO Computing audio features for media_000115
+2026-06-02 01:54:16,624 INFO Processed 44939/57763 audio windows
+2026-06-02 01:54:16,626 INFO Audio features media 156/198: media_000116 (299 windows)
+2026-06-02 01:54:16,626 INFO Computing audio features for media_000116
+2026-06-02 01:54:20,176 INFO Processed 45238/57763 audio windows
+2026-06-02 01:54:20,176 INFO Audio features media 157/198: media_000117 (299 windows)
+2026-06-02 01:54:20,177 INFO Computing audio features for media_000117
+2026-06-02 01:54:23,804 INFO Processed 45537/57763 audio windows
+2026-06-02 01:54:23,805 INFO Audio features media 158/198: media_000118 (299 windows)
+2026-06-02 01:54:23,805 INFO Computing audio features for media_000118
+2026-06-02 01:54:27,426 INFO Processed 45836/57763 audio windows
+2026-06-02 01:54:27,427 INFO Audio features media 159/198: media_000119 (299 windows)
+2026-06-02 01:54:27,427 INFO Computing audio features for media_000119
+2026-06-02 01:54:31,051 INFO Processed 46135/57763 audio windows
+2026-06-02 01:54:31,052 INFO Audio features media 160/198: media_000120 (299 windows)
+2026-06-02 01:54:31,053 INFO Computing audio features for media_000120
+2026-06-02 01:54:34,616 INFO Processed 46434/57763 audio windows
+2026-06-02 01:54:34,618 INFO Audio features media 161/198: media_000121 (299 windows)
+2026-06-02 01:54:34,618 INFO Computing audio features for media_000121
+2026-06-02 01:54:37,880 INFO Processed 46733/57763 audio windows
+2026-06-02 01:54:37,882 INFO Audio features media 162/198: media_000122 (299 windows)
+2026-06-02 01:54:37,883 INFO Computing audio features for media_000122
+2026-06-02 01:54:41,135 INFO Processed 47032/57763 audio windows
+2026-06-02 01:54:41,136 INFO Audio features media 163/198: media_000123 (299 windows)
+2026-06-02 01:54:41,137 INFO Computing audio features for media_000123
+2026-06-02 01:54:44,443 INFO Processed 47331/57763 audio windows
+2026-06-02 01:54:44,444 INFO Audio features media 164/198: media_000124 (299 windows)
+2026-06-02 01:54:44,444 INFO Computing audio features for media_000124
+2026-06-02 01:54:47,945 INFO Processed 47630/57763 audio windows
+2026-06-02 01:54:47,946 INFO Audio features media 165/198: media_000125 (299 windows)
+2026-06-02 01:54:47,947 INFO Computing audio features for media_000125
+2026-06-02 01:54:51,377 INFO Processed 47929/57763 audio windows
+2026-06-02 01:54:51,378 INFO Audio features media 166/198: media_000126 (299 windows)
+2026-06-02 01:54:51,379 INFO Computing audio features for media_000126
+2026-06-02 01:54:54,972 INFO Processed 48228/57763 audio windows
+2026-06-02 01:54:54,974 INFO Audio features media 167/198: media_000127 (299 windows)
+2026-06-02 01:54:54,974 INFO Computing audio features for media_000127
+2026-06-02 01:54:58,734 INFO Processed 48527/57763 audio windows
+2026-06-02 01:54:58,734 INFO Audio features media 168/198: media_000128 (299 windows)
+2026-06-02 01:54:58,735 INFO Computing audio features for media_000128
+2026-06-02 01:55:02,587 INFO Processed 48826/57763 audio windows
+2026-06-02 01:55:02,588 INFO Audio features media 169/198: media_000129 (299 windows)
+2026-06-02 01:55:02,589 INFO Computing audio features for media_000129
+2026-06-02 01:55:06,369 INFO Processed 49125/57763 audio windows
+2026-06-02 01:55:06,370 INFO Audio features media 170/198: media_000130 (299 windows)
+2026-06-02 01:55:06,371 INFO Computing audio features for media_000130
+2026-06-02 01:55:09,808 INFO Processed 49424/57763 audio windows
+2026-06-02 01:55:09,809 INFO Audio features media 171/198: media_000131 (299 windows)
+2026-06-02 01:55:09,809 INFO Computing audio features for media_000131
+2026-06-02 01:55:13,149 INFO Processed 49723/57763 audio windows
+2026-06-02 01:55:13,150 INFO Audio features media 172/198: media_000132 (299 windows)
+2026-06-02 01:55:13,151 INFO Computing audio features for media_000132
+2026-06-02 01:55:16,698 INFO Processed 50022/57763 audio windows
+2026-06-02 01:55:16,699 INFO Audio features media 173/198: media_000133 (299 windows)
+2026-06-02 01:55:16,699 INFO Computing audio features for media_000133
+2026-06-02 01:55:20,171 INFO Processed 50321/57763 audio windows
+2026-06-02 01:55:20,173 INFO Audio features media 174/198: media_000134 (299 windows)
+2026-06-02 01:55:20,174 INFO Computing audio features for media_000134
+2026-06-02 01:55:24,128 INFO Processed 50620/57763 audio windows
+2026-06-02 01:55:24,129 INFO Audio features media 175/198: media_000135 (299 windows)
+2026-06-02 01:55:24,129 INFO Computing audio features for media_000135
+2026-06-02 01:55:27,845 INFO Processed 50919/57763 audio windows
+2026-06-02 01:55:27,847 INFO Audio features media 176/198: media_000136 (299 windows)
+2026-06-02 01:55:27,847 INFO Computing audio features for media_000136
+2026-06-02 01:55:31,538 INFO Processed 51218/57763 audio windows
+2026-06-02 01:55:31,539 INFO Audio features media 177/198: media_000137 (299 windows)
+2026-06-02 01:55:31,540 INFO Computing audio features for media_000137
+2026-06-02 01:55:35,123 INFO Processed 51517/57763 audio windows
+2026-06-02 01:55:35,125 INFO Audio features media 178/198: media_000138 (299 windows)
+2026-06-02 01:55:35,125 INFO Computing audio features for media_000138
+2026-06-02 01:55:38,682 INFO Processed 51816/57763 audio windows
+2026-06-02 01:55:38,683 INFO Audio features media 179/198: media_000139 (299 windows)
+2026-06-02 01:55:38,683 INFO Computing audio features for media_000139
+2026-06-02 01:55:41,972 INFO Processed 52115/57763 audio windows
+2026-06-02 01:55:41,975 INFO Audio features media 180/198: media_000140 (299 windows)
+2026-06-02 01:55:41,975 INFO Computing audio features for media_000140
+2026-06-02 01:55:45,259 INFO Processed 52414/57763 audio windows
+2026-06-02 01:55:45,260 INFO Audio features media 181/198: media_000141 (299 windows)
+2026-06-02 01:55:45,260 INFO Computing audio features for media_000141
+2026-06-02 01:55:48,565 INFO Processed 52713/57763 audio windows
+2026-06-02 01:55:48,567 INFO Audio features media 182/198: media_000142 (299 windows)
+2026-06-02 01:55:48,568 INFO Computing audio features for media_000142
+2026-06-02 01:55:51,958 INFO Processed 53012/57763 audio windows
+2026-06-02 01:55:51,960 INFO Audio features media 183/198: media_000143 (299 windows)
+2026-06-02 01:55:51,961 INFO Computing audio features for media_000143
+2026-06-02 01:55:55,421 INFO Processed 53311/57763 audio windows
+2026-06-02 01:55:55,423 INFO Audio features media 184/198: media_000144 (299 windows)
+2026-06-02 01:55:55,423 INFO Computing audio features for media_000144
+2026-06-02 01:55:58,864 INFO Processed 53610/57763 audio windows
+2026-06-02 01:55:58,865 INFO Audio features media 185/198: media_000145 (299 windows)
+2026-06-02 01:55:58,865 INFO Computing audio features for media_000145
+2026-06-02 01:56:02,521 INFO Processed 53909/57763 audio windows
+2026-06-02 01:56:02,522 INFO Audio features media 186/198: media_000146 (299 windows)
+2026-06-02 01:56:02,522 INFO Computing audio features for media_000146
+2026-06-02 01:56:06,181 INFO Processed 54208/57763 audio windows
+2026-06-02 01:56:06,183 INFO Audio features media 187/198: media_000147 (299 windows)
+2026-06-02 01:56:06,183 INFO Computing audio features for media_000147
+2026-06-02 01:56:09,813 INFO Processed 54507/57763 audio windows
+2026-06-02 01:56:09,815 INFO Audio features media 188/198: media_000148 (299 windows)
+2026-06-02 01:56:09,815 INFO Computing audio features for media_000148
+2026-06-02 01:56:13,103 INFO Processed 54806/57763 audio windows
+2026-06-02 01:56:13,104 INFO Audio features media 189/198: media_000149 (299 windows)
+2026-06-02 01:56:13,104 INFO Computing audio features for media_000149
+2026-06-02 01:56:16,473 INFO Processed 55105/57763 audio windows
+2026-06-02 01:56:16,474 INFO Audio features media 190/198: media_000150 (299 windows)
+2026-06-02 01:56:16,474 INFO Computing audio features for media_000150
+2026-06-02 01:56:19,739 INFO Processed 55404/57763 audio windows
+2026-06-02 01:56:19,740 INFO Audio features media 191/198: media_000151 (299 windows)
+2026-06-02 01:56:19,740 INFO Computing audio features for media_000151
+2026-06-02 01:56:23,055 INFO Processed 55703/57763 audio windows
+2026-06-02 01:56:23,056 INFO Audio features media 192/198: media_000152 (299 windows)
+2026-06-02 01:56:23,057 INFO Computing audio features for media_000152
+2026-06-02 01:56:26,751 INFO Processed 56002/57763 audio windows
+2026-06-02 01:56:26,753 INFO Audio features media 193/198: media_000153 (299 windows)
+2026-06-02 01:56:26,753 INFO Computing audio features for media_000153
+2026-06-02 01:56:30,553 INFO Processed 56301/57763 audio windows
+2026-06-02 01:56:30,554 INFO Audio features media 194/198: media_000154 (299 windows)
+2026-06-02 01:56:30,555 INFO Computing audio features for media_000154
+2026-06-02 01:56:34,452 INFO Processed 56600/57763 audio windows
+2026-06-02 01:56:34,454 INFO Audio features media 195/198: media_000155 (299 windows)
+2026-06-02 01:56:34,454 INFO Computing audio features for media_000155
+2026-06-02 01:56:38,245 INFO Processed 56899/57763 audio windows
+2026-06-02 01:56:38,246 INFO Audio features media 196/198: media_000156 (299 windows)
+2026-06-02 01:56:38,247 INFO Computing audio features for media_000156
+2026-06-02 01:56:42,056 INFO Processed 57198/57763 audio windows
+2026-06-02 01:56:42,058 INFO Audio features media 197/198: media_000157 (266 windows)
+2026-06-02 01:56:42,059 INFO Computing audio features for media_000157
+2026-06-02 01:56:45,369 INFO Processed 57464/57763 audio windows
+2026-06-02 01:56:45,369 INFO Audio features media 198/198: media_000158 (299 windows)
+2026-06-02 01:56:45,370 INFO Computing audio features for media_000158
+2026-06-02 01:56:49,378 INFO Processed 57763/57763 audio windows

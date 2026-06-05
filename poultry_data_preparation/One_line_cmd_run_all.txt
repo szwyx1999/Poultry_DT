@@ -1,0 +1,4 @@
+python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/default.yaml --stage all
+python -m poultry_data_preparation.src.main --config poultry_data_preparation/config/default.yaml --stage all --force-recompute-all
+bash poultry_data_preparation/container_related/build_local_sif.sh
+bash poultry_data_preparation/container_related/run_local_apptainer_smoke_test.sh

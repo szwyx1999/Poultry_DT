@@ -1,11 +1,10 @@
 # Semantic Zone Report
 
-- Dry run: `False`
-- Rooms with valid semantic zones: 1
+- Dry run: `True`
+- Rooms with valid semantic zones: 0
 
 ## Zone Configs
 
-- `room_1` -> `room_1_semantic_v1` (mode `automatic`, overlap `0` pixels)
 
 ## Warnings
 

@@ -16,6 +16,8 @@ from .utils import prepare_time_columns, write_table
 
 LOGGER = logging.getLogger(__name__)
 
+AUDIO_CACHE_SCHEMA_VERSION = 1
+
 
 AUDIO_COLUMNS = [
     "window_id",
@@ -109,14 +111,39 @@ def _load_or_compute_audio_cache(
     force_recompute: bool,
 ) -> dict[str, object]:
     cache_path = config.audio_feature_cache_dir / f"{media_id}.joblib"
+    expected_metadata = _build_audio_cache_metadata(config, absolute_path)
     if cache_path.exists() and not force_recompute:
-        LOGGER.info("Reusing cached audio features for %s", media_id)
-        return joblib.load(cache_path)
+        cached = joblib.load(cache_path)
+        if _audio_cache_metadata_matches(cached, expected_metadata):
+            LOGGER.info("Reusing cached audio features for %s", media_id)
+            return cached
+        LOGGER.info("Discarding stale audio feature cache for %s", media_id)
     LOGGER.info("Computing audio features for %s", media_id)
     cache_data = _decode_media_audio_to_frames(absolute_path, config.ffmpeg_path, config.audio_sample_rate, config.audio_frame_seconds)
     if config.audio_cache_per_media:
+        cache_data["cache_metadata"] = expected_metadata
         joblib.dump(cache_data, cache_path)
     return cache_data
+
+
+def _build_audio_cache_metadata(config: PreparationConfig, absolute_path: Path) -> dict[str, object]:
+    resolved_path = absolute_path.resolve()
+    file_stat = resolved_path.stat()
+    return {
+        "schema_version": AUDIO_CACHE_SCHEMA_VERSION,
+        "audio_sample_rate": int(config.audio_sample_rate),
+        "audio_frame_seconds": float(config.audio_frame_seconds),
+        "source_media_path": str(resolved_path),
+        "source_media_size": int(file_stat.st_size),
+        "source_media_mtime_ns": int(file_stat.st_mtime_ns),
+    }
+
+
+def _audio_cache_metadata_matches(cache_data: dict[str, object], expected_metadata: dict[str, object]) -> bool:
+    cached_metadata = cache_data.get("cache_metadata")
+    if not isinstance(cached_metadata, dict):
+        return False
+    return all(cached_metadata.get(key) == value for key, value in expected_metadata.items())
 
 
 def _decode_media_audio_to_frames(

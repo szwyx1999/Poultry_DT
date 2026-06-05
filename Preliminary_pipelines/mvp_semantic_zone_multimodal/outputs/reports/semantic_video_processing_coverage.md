@@ -10,7 +10,7 @@
 - Time span start: `2025-08-16T06:00:03-03:00`
 - Time span end: `2025-08-17T14:14:53-03:00`
 - Failed windows: 0
-- Runtime estimate: `0.05` minutes
+- Runtime estimate: `0.11` minutes
 
 ## Per-Zone Activity Summary
 

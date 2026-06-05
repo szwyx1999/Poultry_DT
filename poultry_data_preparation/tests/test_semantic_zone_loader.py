@@ -1,16 +1,21 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 import uuid
 
 import numpy as np
 from PIL import Image, ImageDraw
 
-from poultry_data_preparation.src.semantic_zone_loader import build_zone_config_from_images
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.semantic_zone_loader import build_zone_config_from_images
 
 
 def test_build_zone_config_from_synthetic_images() -> None:
-    scratch_root = Path("poultry_data_preparation/.tmp_tests")
+    scratch_root = Path("tmp_tests")
     scratch_root.mkdir(parents=True, exist_ok=True)
     tmp_path = scratch_root / f"zone_test_{uuid.uuid4().hex}"
     tmp_path.mkdir(parents=True, exist_ok=True)

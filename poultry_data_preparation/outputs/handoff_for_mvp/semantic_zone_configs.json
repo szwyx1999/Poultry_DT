@@ -2,8 +2,8 @@
   {
     "room_id": "room_1",
     "zone_config_id": "room_1_semantic_v1",
-    "reference_image": "F:\\temp\\data\\metadata\\semantic_zone_refs\\room1_aug16_17_reference.png",
-    "annotated_image": "F:\\temp\\data\\metadata\\semantic_zone_refs\\room1_aug16_17_reference_with_notes.png",
+    "reference_image": "C:\\Users\\tenpercent\\Desktop\\Yuxi Wang - Summer 2026\\data\\metadata\\semantic_zone_refs\\room1_aug16_17_reference.png",
+    "annotated_image": "C:\\Users\\tenpercent\\Desktop\\Yuxi Wang - Summer 2026\\data\\metadata\\semantic_zone_refs\\room1_aug16_17_reference_with_notes.png",
     "image_width": 1920,
     "image_height": 1080,
     "detection_mode": "automatic",
@@ -51,6 +51,69 @@
           [
             586,
             648
+          ]
+        ]
+      },
+      {
+        "zone_id": "general_zone",
+        "display_name": "General Area",
+        "semantic_type": "general",
+        "definition": "full_frame_minus_drinking_and_feeding"
+      }
+    ]
+  },
+  {
+    "room_id": "room_2",
+    "zone_config_id": "room_2_semantic_v1",
+    "reference_image": "C:\\Users\\tenpercent\\Desktop\\Yuxi Wang - Summer 2026\\data\\metadata\\semantic_zone_refs\\room2_reference.png",
+    "annotated_image": "C:\\Users\\tenpercent\\Desktop\\Yuxi Wang - Summer 2026\\data\\metadata\\semantic_zone_refs\\room2_reference_with_notes.png",
+    "image_width": 1920,
+    "image_height": 1080,
+    "detection_mode": "automatic",
+    "zones": [
+      {
+        "zone_id": "drinking_zone",
+        "display_name": "Drinking Area",
+        "semantic_type": "drinking",
+        "polygon": [
+          [
+            662,
+            42
+          ],
+          [
+            915,
+            42
+          ],
+          [
+            915,
+            308
+          ],
+          [
+            662,
+            308
+          ]
+        ]
+      },
+      {
+        "zone_id": "feeding_zone",
+        "display_name": "Feeding Area",
+        "semantic_type": "feeding",
+        "polygon": [
+          [
+            381,
+            220
+          ],
+          [
+            661,
+            220
+          ],
+          [
+            661,
+            502
+          ],
+          [
+            381,
+            502
           ]
         ]
       },
